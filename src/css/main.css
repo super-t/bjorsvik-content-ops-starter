@@ -290,9 +290,31 @@
             @apply border-dark text-dark;
         }
     }
+    .bg-primary-fg-light {
+        @apply text-light bg-primary;
+        .sb-component-button-primary {
+            @apply bg-light border-light text-dark;
+        }
+        .sb-component-button-secondary {
+            @apply border-light text-light;
+        }
+    }
+    .sb-component-footer.bg-dark-fg-light {
+        background-color: #6a0dad;
+    }
+    .sb-component-footer.bg-dark-fg-light .sb-footer-bottom {
+        border-color: rgba(255, 255, 255, 0.25);
+    }
 }
 
 @layer utilities {
+    #bildegalleri .sb-component-image-block img {
+        height: 220px;
+        width: auto;
+        object-fit: cover;
+        border-radius: 0.75rem;
+        display: block;
+    }
     .underline-line-through {
         text-decoration-line: underline line-through
     }

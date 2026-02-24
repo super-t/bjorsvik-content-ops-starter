@@ -42,7 +42,8 @@ export default function VideoBlock(props) {
                     'h-0',
                     {
                         'pt-3/4': aspectRatio === '4:3',
-                        'pt-9/16': aspectRatio === '16:9'
+                        'pt-9/16': aspectRatio === '16:9',
+                        'pt-[177.78%]': aspectRatio === '9:16'
                     }
                 )}
             >

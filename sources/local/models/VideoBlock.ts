@@ -77,6 +77,10 @@ export const VideoBlock: Model = {
                 {
                     label: '16:9',
                     value: '16:9'
+                },
+                {
+                    label: '9:16',
+                    value: '9:16'
                 }
             ],
             group: 'styles',

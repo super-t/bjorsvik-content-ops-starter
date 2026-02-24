@@ -10,7 +10,7 @@ import TitleBlock from '../../blocks/TitleBlock';
 import { Action, Badge } from '../../atoms';
 
 export default function GenericSection(props) {
-    const { elementId, colors, backgroundImage, badge, title, subtitle, text, actions = [], media, styles = {}, enableAnnotations } = props;
+    const { elementId, colors, backgroundImage, backgroundVideo, badge, title, subtitle, text, actions = [], media, styles = {}, enableAnnotations } = props;
     const flexDirection = styles?.self?.flexDirection ?? 'row';
     const alignItems = styles?.self?.alignItems ?? 'flex-start';
     const hasTextContent = !!(badge?.url || title?.text || subtitle || text || actions.length > 0);
@@ -23,6 +23,7 @@ export default function GenericSection(props) {
             className="sb-component-generic-section"
             colors={colors}
             backgroundImage={backgroundImage}
+            backgroundVideo={backgroundVideo}
             styles={styles?.self}
             {...getDataAttrs(props)}
         >

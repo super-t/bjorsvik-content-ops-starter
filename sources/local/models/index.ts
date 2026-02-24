@@ -38,6 +38,7 @@ import { ThemeStyleHeading } from './ThemeStyleHeading';
 import { ThemeStyleLink } from './ThemeStyleLink';
 import { TitleBlock } from './TitleBlock';
 import { VideoBlock } from './VideoBlock';
+import { VideoGallerySection } from './VideoGallerySection';
 
 import { MetaTag } from './MetaTag';
 import { FooterLinksGroup } from './FooterLinksGroup';
@@ -84,6 +85,7 @@ export const allModels = {
     ThemeStyleLink,
     TitleBlock,
     VideoBlock,
+    VideoGallerySection,
     MetaTag,
     FooterLinksGroup,
     Seo

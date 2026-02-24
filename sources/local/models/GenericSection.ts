@@ -121,6 +121,16 @@ export const GenericSection: Model = {
             group: 'styles'
         },
         {
+            type: 'model',
+            name: 'backgroundVideo',
+            label: 'Background video',
+            required: false,
+            hidden: false,
+            localized: false,
+            models: ['VideoBlock'],
+            group: 'styles'
+        },
+        {
             type: 'style',
             name: 'styles',
             label: 'Styles',
