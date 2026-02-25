@@ -5,6 +5,7 @@ import Link from '../Link';
 
 export default function Action(props) {
     const { elementId, className, label, altText, url, showIcon, icon, iconPosition = 'right', style = 'primary' } = props;
+    const openInNewTab = /docs\.google\.com\/forms/i.test(url || '');
     const IconComponent = icon ? iconMap[icon] : null;
     const fieldPath = props['data-sb-field-path'];
     const annotations = fieldPath
@@ -17,6 +18,8 @@ export default function Action(props) {
             href={url}
             aria-label={altText}
             id={elementId}
+            target={openInNewTab ? '_blank' : undefined}
+            rel={openInNewTab ? 'noopener noreferrer' : undefined}
             className={classNames(
                 'sb-component',
                 'sb-component-block',

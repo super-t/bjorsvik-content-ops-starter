@@ -4,8 +4,12 @@ slug: bjorsvik-brass-bedrift
 sections:
   - type: GenericSection
     title:
-      text: Bjørsvik Brass - levende musikk som løfter ethvert arrangement
+      text: |-
+        Bjørsvik Brass - levende musikk som løfter ethvert arrangement
       color: text-light
+      styles:
+        self:
+          textAlign: center
       type: TitleBlock
     subtitle: Profesjonell live-musikk for kultur- og bedriftsarrangementer
     actions:
@@ -47,9 +51,12 @@ sections:
     title:
       text: Hvem er Bjørsvik Brass
       color: text-dark
+      styles:
+        self:
+          textAlign: center
       type: TitleBlock
     text: >-
-      Bjørsvik Brass er et av Norges mest meritterte brassband, bestående av
+      Vi er et av Norges mest meritterte brassband, bestående av
       tidligere toppmusikere fra landets elitekorps. Vi skaper profesjonelle
       musikkopplevelser til kultur- og bedriftsarrangementer i hele landet.
     colors: bg-light-fg-dark
@@ -59,11 +66,11 @@ sections:
         padding:
           - pt-12
           - pl-16
-          - pb-12
+          - pb-4
           - pr-16
 
   - type: ImageGallerySection
-    subtitle: Våre satsingar
+    elementId: vare-satsingar
     images:
       - url: /images/hashtag-bjorsvik-ung-brass.svg
         altText: '#BjørsvikUngBrass - Vi skapar mestring hjå born og unge'
@@ -75,21 +82,19 @@ sections:
         altText: '#ErfaringogLidenskapiSamspel - Vi formidlar musikk med erfaring og lidenskap i samspel'
         type: ImageBlock
     motion: move-to-left
-    colors: bg-neutral-fg-dark
+    colors: bg-light-fg-dark
     styles:
       self:
         justifyContent: center
         padding:
-          - pt-8
+          - pt-0
           - pl-16
           - pb-8
           - pr-16
-      subtitle:
-        textAlign: center
 
   - type: FeaturedItemsSection
     title:
-      text: Hvorfor velge Bjørsvik Brass?
+      text: Hvorfor velge oss?
       color: text-dark
       styles:
         self:

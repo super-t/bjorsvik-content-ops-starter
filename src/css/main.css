@@ -300,7 +300,7 @@
         }
     }
     .sb-component-footer.bg-dark-fg-light {
-        background-color: #6a0dad;
+        background-color: #6A0DAD;
     }
     .sb-component-footer.bg-dark-fg-light .sb-footer-bottom {
         border-color: rgba(255, 255, 255, 0.25);
@@ -308,6 +308,28 @@
 }
 
 @layer utilities {
+    #vare-satsingar .sb-component-image-block {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+    #vare-satsingar .sb-image-strip-wrap {
+        background-color: #ffffff;
+        border-radius: 0.75rem;
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+    }
+    #vare-satsingar .sb-image-strip-wrap:before,
+    #vare-satsingar .sb-image-strip-wrap:after {
+        display: none;
+    }
+    #vare-satsingar .sb-component-image-block img {
+        height: 96px;
+        width: auto;
+        max-width: none;
+        background-color: #ffffff;
+        border-radius: 0.5rem;
+        padding: 0.35rem 0.5rem;
+    }
     #bildegalleri .sb-component-image-block img {
         height: 220px;
         width: auto;
