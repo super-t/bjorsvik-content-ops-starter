@@ -7,12 +7,22 @@ export default function DefaultBaseLayout(props) {
     const { page, site } = props;
     const { enableAnnotations = true } = site;
     const pageMeta = page?.__metadata || {};
+    const isBjorsvikBusinessPage = page?.slug === 'bjorsvik-brass-bedrift';
 
     return (
         <div className={classNames('sb-page', pageMeta.pageCssClasses)} {...(enableAnnotations && { 'data-sb-object-id': pageMeta.id })}>
             <div className="sb-base sb-default-base-layout">
                 {site.header && <Header {...site.header} enableAnnotations={enableAnnotations} />}
                 {props.children}
+                {isBjorsvikBusinessPage && (
+                    <div className="w-full overflow-hidden">
+                        <img
+                            src="/images/bb-img-0.jpeg"
+                            alt="Bjørsvik Brass bilete over footer"
+                            className="block w-full h-40 sm:h-52 object-cover object-center"
+                        />
+                    </div>
+                )}
                 {site.footer && <Footer {...site.footer} enableAnnotations={enableAnnotations} />}
             </div>
         </div>

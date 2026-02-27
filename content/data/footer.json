@@ -5,13 +5,51 @@
         "type": "ImageBlock"
     },
     "title": "",
-    "text": "Levende musikk som løfter ethvert arrangement.",
+    "text": "Levende musikk som løfter ethvert arrangement.\n\nE-post: [bjorsvik.brass@gmail.com](mailto:bjorsvik.brass@gmail.com)",
     "primaryLinks": {
         "title": "",
         "links": [
             {
+                "label": "Bestill oss",
+                "url": "/bjorsvik-brass-bedrift",
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "secondary",
+                "type": "Link"
+            },
+            {
+                "label": "Støtt oss",
+                "url": "/stott-oss-bedriftssamarbeid",
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "secondary",
+                "type": "Link"
+            },
+            {
                 "label": "Blogg",
                 "url": "https://bjorsvikbrass.wordpress.com/",
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "secondary",
+                "type": "Link"
+            }
+        ],
+        "type": "FooterLinksGroup"
+    },
+    "secondaryLinks": {
+        "title": "",
+        "links": [
+            {
+                "label": "#HunKomponerer",
+                "url": "/hunkomponerer",
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "secondary",
+                "type": "Link"
+            },
+            {
+                "label": "#BjørvikUngBrass",
+                "url": "/bjorvikungbrass",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
@@ -34,8 +72,7 @@
             "type": "Social"
         }
     ],
-    "legalLinks": [],
-    "copyrightText": "Bjørsvik Brass",
+    "copyrightText": "© Bjørsvik Brass",
     "colors": "bg-dark-fg-light",
     "type": "Footer"
 }

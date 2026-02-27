@@ -12,14 +12,38 @@
     },
     "primaryLinks": [
         {
-            "label": "Levende musikk som løfter ethvert arrangement",
+            "label": "Besill oss",
             "url": "/bjorsvik-brass-bedrift",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
             "type": "Link"
+        },
+        {
+            "label": "Støtt oss",
+            "url": "/stott-oss-bedriftssamarbeid",
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "type": "Link"
+        },
+        {
+            "label": "#HunKomponerer",
+            "url": "/hunkomponerer",
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "type": "Link"
+        },
+        {
+            "label": "#BjørvikUngBrass",
+            "url": "/bjorvikungbrass",
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "type": "Link"
         }
-    
+
     ],
     "secondaryLinks": [
         

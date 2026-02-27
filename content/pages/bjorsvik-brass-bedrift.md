@@ -4,24 +4,32 @@ slug: bjorsvik-brass-bedrift
 sections:
   - type: GenericSection
     title:
-      text: |-
-        Bjørsvik Brass - levende musikk som løfter ethvert arrangement
+      text: Profesjonell brassmusikk til bedriftsarrangement og eventproduksjon
       color: text-light
       styles:
         self:
-          textAlign: center
+          textAlign: left
       type: TitleBlock
-    subtitle: Profesjonell live-musikk for kultur- og bedriftsarrangementer
     actions:
-      - label: Book oss
-        altText: Book Bjørsvik Brass
-        url: 'https://docs.google.com/forms/d/e/1FAIpQLSdVb7rB-yII-nQXSs27z4TDEdRcAIMFHjq2uCrLSSR6fsifNQ/viewform?usp=header'
+      - label: Be om tilbod
+        altText: Be om tilbod
+        url: '#kontakt'
         showIcon: false
         icon: arrowRight
         iconPosition: right
         style: primary
         type: Button
-    text: Opplev ekte brassenergi, presisjon og showfaktor som løfter arrangementet.
+      - label: For eventbyrå og produsentar
+        altText: For eventbyrå og produsentar
+        url: '#event'
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: secondary
+        type: Button
+    text: >-
+      Bjørsvik Brass leverer fleksible og pålitelege musikkinnslag - frå
+      sommarfest til større sceneproduksjonar.
     backgroundVideo:
       title: Hero bakgrunnsvideo
       url: /images/0cc874729ebc488fa1501ed09d1654d7.mp4
@@ -34,214 +42,105 @@ sections:
     colors: bg-dark-fg-light
     styles:
       self:
-        alignItems: center
-        justifyContent: center
+        alignItems: flex-start
+        justifyContent: flex-start
         flexDirection: col
         padding:
           - pt-40
           - pl-16
           - pb-40
           - pr-16
-      subtitle:
-        textAlign: center
       text:
-        textAlign: center
+        textAlign: left
 
-  - type: GenericSection
+  - type: FeaturedItemsSection
     title:
-      text: Hvem er Bjørsvik Brass
+      text: Kva får de?
       color: text-dark
       styles:
         self:
-          textAlign: center
+          textAlign: left
       type: TitleBlock
-    text: >-
-      Vi er et av Norges mest meritterte brassband, bestående av
-      tidligere toppmusikere fra landets elitekorps. Vi skaper profesjonelle
-      musikkopplevelser til kultur- og bedriftsarrangementer i hele landet.
-    colors: bg-light-fg-dark
+    items:
+      - type: FeaturedItem
+        title: Skreddarsydd repertoar
+        text: Tilpassa dykkar arrangement og profil.
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pl-6
+              - pb-6
+              - pr-6
+            borderRadius: x-large
+            textAlign: left
+      - type: FeaturedItem
+        title: Profesjonell gjennomføring
+        text: Tydeleg avtale og trygg leveranse.
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pl-6
+              - pb-6
+              - pr-6
+            borderRadius: x-large
+            textAlign: left
+      - type: FeaturedItem
+        title: Stemning og fellesskap
+        text: Live musikk som samlar folk.
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pl-6
+              - pb-6
+              - pr-6
+            borderRadius: x-large
+            textAlign: left
+      - type: FeaturedItem
+        title: Fleksibel besetning
+        text: Heilt brassband eller mindre ensemble.
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pl-6
+              - pb-6
+              - pr-6
+            borderRadius: x-large
+            textAlign: left
+    variant: two-col-grid
+    colors: bg-neutral-fg-dark
     styles:
       self:
-        justifyContent: center
+        justifyContent: flex-start
         padding:
           - pt-12
-          - pl-16
-          - pb-4
-          - pr-16
-
-  - type: ImageGallerySection
-    elementId: vare-satsingar
-    images:
-      - url: /images/hashtag-bjorsvik-ung-brass.svg
-        altText: '#BjørsvikUngBrass - Vi skapar mestring hjå born og unge'
-        type: ImageBlock
-      - url: /images/hashtag-hun-komponerer.svg
-        altText: '#HunKomponerer - Vi løftar fram kvinnelege komponistar'
-        type: ImageBlock
-      - url: /images/hashtag-erfaring-lidenskap.svg
-        altText: '#ErfaringogLidenskapiSamspel - Vi formidlar musikk med erfaring og lidenskap i samspel'
-        type: ImageBlock
-    motion: move-to-left
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        justifyContent: center
-        padding:
-          - pt-0
           - pl-16
           - pb-8
           - pr-16
 
   - type: FeaturedItemsSection
+    elementId: bedrift
     title:
-      text: Hvorfor velge oss?
+      text: For bedrifter
       color: text-dark
       styles:
         self:
-          textAlign: center
+          textAlign: left
       type: TitleBlock
     items:
       - type: FeaturedItem
-        title: Musikere på elitenivå
-        text: Høyt musikalsk nivå med profesjonell gjennomføring.
-        image:
-          url: /images/icon1.svg
-          altText: Ikon for elitenivå
-          type: ImageBlock
-        colors: bg-primary-fg-light
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            textAlign: left
-      - type: FeaturedItem
-        title: Showfaktor og presisjon
-        text: Et uttrykk som løfter stemningen og skaper tydelig effekt.
-        image:
-          url: /images/icon2.svg
-          altText: Ikon for showfaktor
-          type: ImageBlock
-        colors: bg-primary-fg-light
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            textAlign: left
-      - type: FeaturedItem
-        title: Erfaring fra store og små eventer
-        text: Vi leverer like trygt på intime settinger som større scener.
-        image:
-          url: /images/icon3.svg
-          altText: Ikon for erfaring
-          type: ImageBlock
-        colors: bg-primary-fg-light
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            textAlign: left
-      - type: FeaturedItem
-        title: Trygg og forutsigbar leveranse
-        text: God dialog, punktlighet og kvalitet i alle ledd.
-        image:
-          url: /images/icon1.svg
-          altText: Ikon for trygg leveranse
-          type: ImageBlock
-        colors: bg-primary-fg-light
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            textAlign: left
-      - type: FeaturedItem
-        title: Fleksibel besetning og tilpasningsdyktig repertoar
-        text: Vi tilpasser format og innhold etter arrangement og målgruppe.
-        image:
-          url: /images/icon2.svg
-          altText: Ikon for fleksibilitet
-          type: ImageBlock
-        colors: bg-primary-fg-light
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            textAlign: left
-      - type: FeaturedItem
-        title: Sterk publikumsopplevelse
-        text: Vi skaper engasjement og energi som folk snakker om etter eventet.
-        image:
-          url: /images/icon3.svg
-          altText: Ikon for publikumsopplevelse
-          type: ImageBlock
-        colors: bg-primary-fg-light
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            textAlign: left
-    variant: three-col-grid
-    colors: bg-neutral-fg-dark
-    styles:
-      self:
-        justifyContent: center
-        padding:
-          - pt-16
-          - pl-16
-          - pb-16
-          - pr-16
-
-  - type: FeaturedItemsSection
-    title:
-      text: Våre eventpakker
-      color: text-dark
-      styles:
-        self:
-          textAlign: center
-      type: TitleBlock
-    items:
-      - type: FeaturedItem
-        title: Kort innslag
-        subtitle: Perfekt når du trenger et minneverdig punkt i programmet
-        image:
-          url: /images/icon1.svg
-          altText: Ikon kort innslag
-          type: ImageBlock
-        text: >-
-          Inkluderer fanfare, åpning, pauseinnslag eller markering - tilpasset
-          tema og stemning. (5-15 min)
-        actions:
-          - label: Book kort innslag
-            altText: Book kort innslag
-            url: 'https://docs.google.com/forms/d/e/1FAIpQLSdVb7rB-yII-nQXSs27z4TDEdRcAIMFHjq2uCrLSSR6fsifNQ/viewform?usp=pp_url&entry.262154502=Kort+innslag'
-            showIcon: false
-            icon: arrowRight
-            iconPosition: right
-            style: primary
-            type: Button
+        title: ☀️ Sommarfest og arrangement
+        text: |-
+          - 10-60 min
+          - tilpassa repertoar
+          - enkelt oppsett
         colors: bg-light-fg-dark
         styles:
           self:
@@ -251,28 +150,14 @@ sections:
               - pb-8
               - pr-8
             borderRadius: x-large
-            flexDirection: row
+            flexDirection: col
             textAlign: left
       - type: FeaturedItem
-        title: Eventpakke
-        subtitle: Energi, stemning og levende brassmusikk tilpasset ditt arrangement
-        image:
-          url: /images/icon2.svg
-          altText: Ikon eventpakke
-          type: ImageBlock
-        text: >-
-          Passer til kickoff, Oktoberfest, firmafest, jubileum, prisutdeling og
-          temakvelder. Inkluderer 20-60 min musikk, fleksibel besetning og
-          skreddersydd repertoar. (20-60 min)
-        actions:
-          - label: Book eventpakke
-            altText: Book eventpakke
-            url: 'https://docs.google.com/forms/d/e/1FAIpQLSdVb7rB-yII-nQXSs27z4TDEdRcAIMFHjq2uCrLSSR6fsifNQ/viewform?usp=pp_url&entry.262154502=Eventpakke+20+-+60+min'
-            showIcon: false
-            icon: arrowRight
-            iconPosition: right
-            style: primary
-            type: Button
+        title: 🏛️ Jubileum og markering
+        text: |-
+          - tydelege høgdepunkt
+          - kan integrerast i program
+          - tilpassa lokale
         colors: bg-light-fg-dark
         styles:
           self:
@@ -282,25 +167,14 @@ sections:
               - pb-8
               - pr-8
             borderRadius: x-large
-            flexDirection: row
+            flexDirection: col
             textAlign: left
       - type: FeaturedItem
-        title: Premium konsertpakke
-        subtitle: En helhetlig konsertopplevelse fra et av landets beste brassband
-        image:
-          url: /images/icon3.svg
-          altText: Ikon premium konsertpakke
-          type: ImageBlock
-        text: 45-60 min program formet etter tema, publikum og arrangementstype.
-        actions:
-          - label: Bestill premium-konsert
-            altText: Bestill premium-konsert
-            url: 'https://docs.google.com/forms/d/e/1FAIpQLSdVb7rB-yII-nQXSs27z4TDEdRcAIMFHjq2uCrLSSR6fsifNQ/viewform?usp=pp_url&entry.262154502=Premium+konsertpakke'
-            showIcon: false
-            icon: arrowRight
-            iconPosition: right
-            style: primary
-            type: Button
+        title: 🎄 Julebord og juleavslutning
+        text: |-
+          - klassisk og moderne
+          - stemningsskapande
+          - kort eller fullt program
         colors: bg-light-fg-dark
         styles:
           self:
@@ -310,27 +184,14 @@ sections:
               - pb-8
               - pr-8
             borderRadius: x-large
-            flexDirection: row
+            flexDirection: col
             textAlign: left
       - type: FeaturedItem
-        title: Skreddersydd pakke
-        subtitle: Musikk bygget rundt deres konsept, budskap eller merkevare
-        image:
-          url: /images/icon1.svg
-          altText: Ikon skreddersydd pakke
-          type: ImageBlock
-        text: >-
-          Valgfri besetning, spesialtilpasset repertoar og tett samarbeid om
-          uttrykk og rammer.
-        actions:
-          - label: Ta kontakt for skreddersydd løsning
-            altText: Ta kontakt for skreddersydd løsning
-            url: 'https://docs.google.com/forms/d/e/1FAIpQLSdVb7rB-yII-nQXSs27z4TDEdRcAIMFHjq2uCrLSSR6fsifNQ/viewform?usp=pp_url&entry.262154502=Skreddersydd+pakke'
-            showIcon: false
-            icon: arrowRight
-            iconPosition: right
-            style: primary
-            type: Button
+        title: 🤝 Kunde- og profilarrangement
+        text: |-
+          - profilbyggjande
+          - passar konferanse og lansering
+          - leverast som innslag eller konsert
         colors: bg-light-fg-dark
         styles:
           self:
@@ -340,18 +201,206 @@ sections:
               - pb-8
               - pr-8
             borderRadius: x-large
-            flexDirection: row
+            flexDirection: col
             textAlign: left
+    actions:
+      - label: Kontakt oss direkte
+        altText: Kontakt oss direkte
+        url: '#kontakt'
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        type: Button
     variant: two-col-grid
     colors: bg-light-fg-dark
     styles:
       self:
-        justifyContent: center
+        justifyContent: flex-start
         padding:
-          - pt-16
+          - pt-12
+          - pl-16
+          - pb-12
+          - pr-16
+
+  - type: GenericSection
+    elementId: event
+    title:
+      text: For eventbyrå og produksjonsselskap
+      color: text-dark
+      styles:
+        self:
+          textAlign: left
+      type: TitleBlock
+    text: |-
+      Vi er ein leveringsdyktig musikkpartnar for profesjonelle produksjonar. De får tydeleg kontaktpunkt, raske avklaringar og eit ensemble som kan skalerast etter scene og format.
+
+      - Rask respons og ryddig avtale
+      - Teknisk tilpassing i samarbeid med dykkar leverandør
+      - Skalerbar besetning (innslag / ensemble / fullt brassband)
+    actions:
+      - label: Be om teknisk info
+        altText: Be om teknisk info
+        url: '#kontakt'
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        type: Button
+    colors: bg-neutral-fg-dark
+    styles:
+      self:
+        justifyContent: flex-start
+        padding:
+          - pt-12
+          - pl-16
+          - pb-12
+          - pr-16
+      text:
+        textAlign: left
+
+  - type: GenericSection
+    elementId: referansar-video
+    media:
+      title: Referansevideo
+      url: /images/3261a9ced33a4117801e0a2852b71c05.mp4
+      autoplay: true
+      loop: true
+      muted: true
+      controls: false
+      aspectRatio: '16:9'
+      type: VideoBlock
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        justifyContent: flex-start
+        padding:
+          - pt-10
+          - pl-16
+          - pb-6
+          - pr-16
+
+  - type: CarouselSection
+    elementId: referansar
+    title:
+      text: Referansar
+      color: text-dark
+      styles:
+        self:
+          textAlign: left
+      type: TitleBlock
+    subtitle: Kva kundar seier om samarbeidet
+    items:
+      - type: FeaturedItem
+        tagline: Speling på kaia for Fjordkraft
+        title: >-
+          «Dette var en perfekt måte å skape god atmosfære på - alle smiler»
+        subtitle: Kari Normann, Bookingansvarlig Fjordline
+        image:
+          url: /images/IMG_2924.jpeg
+          altText: Referanseperson 1
+          styles:
+            self:
+              borderRadius: full
+          type: ImageBlock
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-9
+              - pb-9
+              - pl-9
+              - pr-9
+            textAlign: left
+            borderRadius: large
+            flexDirection: row
+            justifyContent: flex-start
+      - type: FeaturedItem
+        tagline: Sommerspil på Fløien
+        title: >-
+          «Vi vil ha de tilbake neste år - veldig gøy for store og små»
+        subtitle: Ola Normann, Sjef for aktivitetsprogrammet på Fløien
+        image:
+          url: /images/att.VyyxhJuBnEz2kWlWcFMT0YRBczNk9UdIUVWmiwqHPv0.jpeg
+          altText: Referanseperson 2
+          styles:
+            self:
+              borderRadius: full
+          type: ImageBlock
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-9
+              - pb-9
+              - pl-9
+              - pr-9
+            textAlign: left
+            borderRadius: large
+            flexDirection: row
+            justifyContent: flex-start
+      - type: FeaturedItem
+        tagline: Julegrantenning på Os
+        title: >-
+          «Ingenting skaper julestemning som brass - sånn er det bare»
+        subtitle: Kari Normann, Rema1000 Os
+        image:
+          url: /images/att.M_D-cdMixOfyGke1Z7t0gh9dz9_vaTvIgi75inkp3Fs.jpeg
+          altText: Referanseperson 3
+          styles:
+            self:
+              borderRadius: full
+          type: ImageBlock
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-9
+              - pb-9
+              - pl-9
+              - pr-9
+            textAlign: left
+            borderRadius: large
+            flexDirection: row
+            justifyContent: flex-start
+    variant: next-prev-nav
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        justifyContent: flex-start
+        padding:
+          - pt-2
           - pl-16
           - pb-16
           - pr-16
+      subtitle:
+        textAlign: left
+
+  - type: GenericSection
+    title:
+      text: Praktisk og teknisk
+      color: text-dark
+      styles:
+        self:
+          textAlign: left
+      type: TitleBlock
+    text: |-
+      - Programlengd: tilpassast (typisk 30-60 min)
+      - Besetning: fleksibel etter format og budsjett
+      - Behov: sceneplass, straum og eventuelt lydforsterking
+      - Rider: tilgjengeleg ved førespurnad
+      - Inne/ute: tilpassast lokasjon og sesong
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        justifyContent: flex-start
+        padding:
+          - pt-16
+          - pl-16
+          - pb-8
+          - pr-16
+      text:
+        textAlign: left
 
   - type: VideoGallerySection
     landscapeVideo:
@@ -415,37 +464,9 @@ sections:
     colors: bg-neutral-fg-dark
     styles:
       self:
-        justifyContent: center
+        justifyContent: flex-start
         padding:
           - pt-4
-          - pl-16
-          - pb-16
-          - pr-16
-
-  - type: GenericSection
-    title:
-      text: Eksempler
-      color: text-dark
-      type: TitleBlock
-    text: |-
-      <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A27889435&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-
-      <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A66200136&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-    actions:
-      - label: Book oss
-        altText: Book oss
-        url: 'https://docs.google.com/forms/d/e/1FAIpQLSdVb7rB-yII-nQXSs27z4TDEdRcAIMFHjq2uCrLSSR6fsifNQ/viewform?usp=header'
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        type: Button
-    colors: bg-neutral-fg-dark
-    styles:
-      self:
-        justifyContent: center
-        padding:
-          - pt-16
           - pl-16
           - pb-16
           - pr-16
@@ -453,13 +474,12 @@ sections:
   - type: ImageGallerySection
     elementId: bildegalleri
     title:
-      text: Bildegalleri
       color: text-dark
       styles:
         self:
-          textAlign: center
+          textAlign: left
       type: TitleBlock
-    subtitle: Full besetning, small band, live-event og profilbilder
+
     images:
       - url: /images/thumb-bb-img-1.jpg
         altText: Bjørsvik Brass galleri 1
@@ -477,66 +497,89 @@ sections:
     colors: bg-light-fg-dark
     styles:
       self:
-        justifyContent: center
+        justifyContent: flex-start
         padding:
           - pt-16
           - pl-16
           - pb-16
           - pr-16
       subtitle:
-        textAlign: center
+        textAlign: left
 
   - type: GenericSection
+    elementId: kontakt
     title:
       text: Kontakt og booking
       color: text-dark
       styles:
         self:
-          textAlign: center
+          textAlign: left
       type: TitleBlock
-    subtitle: Gjør en forespørsel på få sekunder
+    subtitle: Send førespurnad på få sekund
+    text: |-
+      Kontaktpunkt:
+      - E-post: bjorsvik.brass@gmail.com
+      - Telefon: 91173455
+
+      Bruk bookingskjemaet og vel “Bedrift”, “Eventbyrå” eller “Anna” under type førespurnad.
     actions:
-      - label: Åpne bookingskjema
-        altText: Åpne Google skjema for booking
+      - label: Opne bookingskjema
+        altText: Opne bookingskjema
         url: 'https://docs.google.com/forms/d/e/1FAIpQLSdVb7rB-yII-nQXSs27z4TDEdRcAIMFHjq2uCrLSSR6fsifNQ/viewform?usp=header'
         showIcon: true
         icon: arrowRight
         iconPosition: right
         style: primary
         type: Button
+      - label: Eventbyrå-førespurnad
+        altText: Eventbyrå-førespurnad
+        url: 'https://docs.google.com/forms/d/e/1FAIpQLSdVb7rB-yII-nQXSs27z4TDEdRcAIMFHjq2uCrLSSR6fsifNQ/viewform?usp=pp_url&entry.262154502=Eventbyr%C3%A5'
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: secondary
+        type: Button
     colors: bg-light-fg-dark
     styles:
       self:
-        alignItems: center
-        justifyContent: center
+        alignItems: flex-start
+        justifyContent: flex-start
         padding:
           - pt-16
           - pl-16
           - pb-16
           - pr-16
       subtitle:
-        textAlign: center
+        textAlign: left
+      text:
+        textAlign: left
 
-  - type: GenericSection
-    backgroundImage:
-      type: BackgroundImage
-      url: /images/bb-img-0.jpeg
-      altText: Bjørsvik Brass fullbredde bilde
-      backgroundSize: cover
-      backgroundPosition: center
-      backgroundRepeat: no-repeat
-      opacity: 100
+  - type: ImageGallerySection
+    elementId: vare-satsingar
+    images:
+      - url: /images/hashtag-bjorsvik-ung-brass.svg
+        altText: '#BjørsvikUngBrass - Vi skapar meistring hjå born og unge'
+        type: ImageBlock
+      - url: /images/hashtag-hun-komponerer.svg
+        altText: '#HunKomponerer - Vi løftar fram kvinnelege komponistar'
+        type: ImageBlock
+      - url: /images/hashtag-erfaring-lidenskap.svg
+        altText: '#ErfaringogLidenskapiSamspel - Vi formidlar musikk med erfaring og lidenskap i samspel'
+        type: ImageBlock
+    motion: move-to-left
     colors: bg-light-fg-dark
     styles:
       self:
+        justifyContent: flex-start
         padding:
-          - pt-40
-          - pb-40
-          - pl-0
-          - pr-0
+          - pt-0
+          - pl-16
+          - pb-8
+          - pr-16
+
 seo:
-  metaTitle: Bjørsvik Brass for bedrift
-  metaDescription: Bjørsvik Brass leverer levende musikk til bedriftseventer, kulturarrangementer og skreddersydde konsepter.
+  metaTitle: Bjørsvik Brass – musikk til bedriftsarrangement og event
+  metaDescription: Bestill Bjørsvik Brass til bedriftsarrangement, jubileum, sommarfest eller eventproduksjon. Påliteleg leveranse, fleksibel besetning og rask avklaring.
   socialImage: /images/bb-img-0.jpeg
   type: Seo
 type: PageLayout
