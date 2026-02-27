@@ -14,7 +14,7 @@ sections:
       utvikling og motivasjon for neste generasjon.
     backgroundImage:
       type: BackgroundImage
-      url: /images/bb-img-1.jpeg
+      url: /images/bub3.webp
       altText: BjørvikUngBrass
       backgroundSize: cover
       backgroundPosition: center
@@ -47,6 +47,21 @@ sections:
         justifyContent: flex-start
         padding:
           - pt-12
+          - pl-16
+          - pb-8
+          - pr-16
+
+  - type: GenericSection
+    media:
+      url: /images/bub-bred.png
+      altText: BjørvikUngBrass
+      type: ImageBlock
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        justifyContent: flex-start
+        padding:
+          - pt-4
           - pl-16
           - pb-8
           - pr-16
