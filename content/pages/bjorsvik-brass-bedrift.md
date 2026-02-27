@@ -33,6 +33,7 @@ sections:
     backgroundVideo:
       title: Hero bakgrunnsvideo
       url: /images/0cc874729ebc488fa1501ed09d1654d7.mp4
+      poster: /images/bb-img-0.jpeg
       autoplay: true
       loop: true
       muted: true
@@ -264,6 +265,7 @@ sections:
     media:
       title: Referansevideo
       url: /images/3261a9ced33a4117801e0a2852b71c05.mp4
+      poster: /images/bb-img-0.jpeg
       autoplay: true
       loop: true
       muted: true
@@ -406,6 +408,7 @@ sections:
     landscapeVideo:
       title: ''
       url: /images/0cc874729ebc488fa1501ed09d1654d7.mp4
+      poster: /images/bb-img-0.jpeg
       autoplay: false
       loop: false
       muted: false
@@ -415,6 +418,7 @@ sections:
     portraitVideos:
       - title: ''
         url: /images/2ad9a4ebc6df46649039c28f87ee56b5.mp4
+        poster: /images/thumb-bb-img-1.jpg
         autoplay: false
         loop: false
         muted: false
@@ -423,6 +427,7 @@ sections:
         type: VideoBlock
       - title: ''
         url: /images/60744d66aa1e42e4b039de51c39676d0.mp4
+        poster: /images/thumb-bb-img-2.jpg
         autoplay: false
         loop: false
         muted: false
@@ -431,6 +436,7 @@ sections:
         type: VideoBlock
       - title: ''
         url: /images/6abf6e63634f4d05bfb32bee1fb94968.mp4
+        poster: /images/thumb-bb-img-3.jpg
         autoplay: false
         loop: false
         muted: false
@@ -439,6 +445,7 @@ sections:
         type: VideoBlock
       - title: ''
         url: /images/video-output-7B024818-437C-41F9-B36C-21D8A77B9268-1.mp4
+        poster: /images/thumb-bb-img-4.jpg
         autoplay: false
         loop: false
         muted: false
@@ -447,6 +454,7 @@ sections:
         type: VideoBlock
       - title: ''
         url: /images/300d024b9e6b435db76143916d13006a.mp4
+        poster: /images/thumb-bb-img-1.jpg
         autoplay: false
         loop: false
         muted: false
@@ -455,6 +463,7 @@ sections:
         type: VideoBlock
       - title: ''
         url: /images/9857d4633ef24b96b39d55d3d79151be.mp4
+        poster: /images/thumb-bb-img-2.jpg
         autoplay: false
         loop: false
         muted: false

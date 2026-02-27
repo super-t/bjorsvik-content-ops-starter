@@ -29,6 +29,7 @@ export default function Section(props) {
                     autoPlay={backgroundVideo.autoplay ?? true}
                     loop={backgroundVideo.loop ?? true}
                     muted={backgroundVideo.muted ?? true}
+                    poster={backgroundVideo.poster}
                     playsInline
                     controls={backgroundVideo.controls ?? false}
                     style={{ opacity: ((backgroundVideo.opacity ?? 100) as number) * 0.01 }}
