@@ -387,4 +387,21 @@
             transform: translate3d(0,0,0)
         }
     }
+
+    @media (max-width: 640px) {
+        .sb-component-section {
+            padding-top: 2.5rem !important;
+            padding-bottom: 2.5rem !important;
+            padding-left: 1rem !important;
+            padding-right: 1rem !important;
+        }
+        .sb-component-title {
+            font-size: clamp(1.6rem, 6.8vw, 2.1rem);
+            line-height: 1.15;
+        }
+        .sb-card .h3 {
+            font-size: clamp(1.2rem, 5vw, 1.5rem);
+            line-height: 1.25;
+        }
+    }
 }
