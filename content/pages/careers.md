@@ -159,9 +159,9 @@ sections:
         textAlign: center
     type: FeaturedItemsSection
 seo:
-  metaTitle: Careers - Demo site
-  metaDescription: This is the careers page built with Netlify Create.
-  socialImage: /images/main-hero.jpg
+  metaTitle: Bjørsvik Brass
+  metaDescription: Bjørsvik Brass formidlar levande brassmusikk og utviklar satsingar for barn, unge og nye førebilete i kulturlivet.
+  socialImage: /images/bb-img-0.jpeg
   type: Seo
 type: PageLayout
 ---

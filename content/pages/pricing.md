@@ -116,9 +116,9 @@ sections:
         textAlign: center
     type: PricingSection
 seo:
-  metaTitle: Pricing - Demo site
-  metaDescription: This is the pricing page built with Netlify Create.
-  socialImage: /images/main-hero.jpg
+  metaTitle: Støtt oss - Bjørsvik Brass
+  metaDescription: Bli støttespelar i Bjørsvik Brass og bidra til kultur, rekruttering og musikalsk utvikling i lokalmiljøet.
+  socialImage: /images/bb-img-0.jpeg
   type: Seo
 type: PageLayout
 ---

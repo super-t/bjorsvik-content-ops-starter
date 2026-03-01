@@ -9,9 +9,9 @@ sections:
       type: TitleBlock
     subtitle: Erfaring og lidenskap i samspel
     text: >-
-      Eit tilbod for bedrifter og privatpersonar som vil støtte kultur,
-      mangfald og lokalsamfunn. Vel brei støtte gjennom medlemskap eller
-      øyremerkt støtte gjennom saksmedlemskap.
+      Bli ein synleg støttespelar for kultur som skapar verdi i lokalmiljøet.
+      Med medlemskap i Bjørsvik Brass får de profilering, opplevingar og eit
+      konkret bidrag til kvalitet, rekruttering og mangfald.
     actions:
       - label: Sjå støttespelar-pakkar
         altText: Gå til støttespelar-pakkar
@@ -21,14 +21,16 @@ sections:
         iconPosition: right
         style: primary
         type: Button
-    backgroundImage:
-      type: BackgroundImage
-      url: /images/bb-img-0.jpeg
-      altText: Bjørsvik Brass
-      backgroundSize: cover
-      backgroundPosition: center
-      backgroundRepeat: no-repeat
-      opacity: 30
+    backgroundVideo:
+      title: Hero bakgrunnsvideo
+      url: /images/0cc874729ebc488fa1501ed09d1654d7.mp4
+      poster: /images/bb-img-0.jpeg
+      autoplay: true
+      loop: true
+      muted: true
+      controls: false
+      opacity: 35
+      type: VideoBlock
     colors: bg-dark-fg-light
     styles:
       self:
@@ -257,8 +259,8 @@ sections:
           - pr-16
 
 seo:
-  metaTitle: Bedriftmedlemskap i Bjørsvik Brass – støtt oss
-  metaDescription: Vel brei støtte eller saksmedlemskap i Bjørsvik Brass. Støtt #BjørsvikUngBrass, #HunKomponerer eller #Erfaringoglidenskapisamspel.
+  metaTitle: Bedriftmedlemskap i Bjørsvik Brass - støtt oss
+  metaDescription: Bli støttespelar i Bjørsvik Brass med medlemskap for bedrifter og privatpersonar. Profilering, opplevingar og konkret samfunnsbidrag.
   socialImage: /images/bb-img-0.jpeg
   type: Seo
 type: PageLayout

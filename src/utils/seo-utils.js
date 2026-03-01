@@ -8,12 +8,17 @@ export function seoGenerateMetaTags(page, site) {
     }
 
     const seoTitle = seoGenerateTitle(page, site);
+    const seoDescription = seoGenerateMetaDescription(page, site);
     const ogImage = seoGenerateOgImage(page, site);
 
     pageMetaTags = {
         ...pageMetaTags,
         ...(seoTitle && { 'og:title': seoTitle }),
-        ...(ogImage && { 'og:image': ogImage })
+        ...(seoDescription && { 'og:description': seoDescription }),
+        ...(ogImage && { 'og:image': ogImage }),
+        ...(seoTitle && { 'twitter:title': seoTitle }),
+        ...(seoDescription && { 'twitter:description': seoDescription }),
+        ...(ogImage && { 'twitter:image': ogImage })
     };
 
     if (page.seo?.metaTags?.length) {
@@ -38,7 +43,7 @@ export function seoGenerateMetaTags(page, site) {
 
 export function seoGenerateTitle(page, site) {
     let title = page.seo?.metaTitle ? page.seo?.metaTitle : page.title;
-    if (site.titleSuffix && page.seo?.addTitleSuffix !== false) {
+    if (site.titleSuffix && page.seo?.addTitleSuffix !== false && !String(title).includes(site.titleSuffix)) {
         title = `${title} - ${site.titleSuffix}`;
     }
     return title;
@@ -53,6 +58,10 @@ export function seoGenerateMetaDescription(page, site) {
     // page metaDescription field overrides all others
     if (page.seo?.metaDescription) {
         metaDescription = page.seo?.metaDescription;
+    }
+    // fall back to site-level default description
+    if (!metaDescription && site.defaultMetaDescription) {
+        metaDescription = site.defaultMetaDescription;
     }
     return metaDescription;
 }

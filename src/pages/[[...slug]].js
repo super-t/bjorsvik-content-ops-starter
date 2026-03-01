@@ -32,7 +32,10 @@ function Page(props) {
                     return <meta key={metaTag.property} name={metaTag.property} content={metaTag.content} />;
                 })}
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
+                {site.themeColor && <meta name="theme-color" content={site.themeColor} />}
+                <meta name="apple-mobile-web-app-title" content={site.titleSuffix || page.title} />
                 {site.favicon && <link rel="icon" href={site.favicon} />}
+                {site.appleTouchIcon && <link rel="apple-touch-icon" sizes="180x180" href={site.appleTouchIcon} />}
             </Head>
             <PageLayout page={page} site={site} />
         </>

@@ -11,15 +11,17 @@ sections:
     text: >-
       Ei langsiktig satsing for likestilling, representasjon og nye stemmer i
       korpsmusikken.
-    backgroundImage:
-      type: BackgroundImage
-      url: /images/hk1.jpg
-      altText: Hun Komponerer
-      backgroundSize: cover
-      backgroundPosition: center
-      backgroundRepeat: no-repeat
-      opacity: 20
-    colors: bg-primary-fg-light
+    backgroundVideo:
+      title: Hero bakgrunnsvideo
+      url: /images/0cc874729ebc488fa1501ed09d1654d7.mp4
+      poster: /images/bb-img-0.jpeg
+      autoplay: true
+      loop: true
+      muted: true
+      controls: false
+      opacity: 35
+      type: VideoBlock
+    colors: bg-dark-fg-light
     styles:
       self:
         alignItems: flex-start

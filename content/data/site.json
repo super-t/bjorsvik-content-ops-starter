@@ -1,8 +1,29 @@
 {
     "favicon": "/images/favicon.svg",
+    "appleTouchIcon": "/images/apple-touch-icon.png",
+    "themeColor": "#6A0DAD",
     "footer": "content/data/footer.json",
-    "titleSuffix": "Theme Demo",
-    "defaultSocialImage": "/images/main-hero.jpg",
+    "titleSuffix": "Bjørsvik Brass",
+    "defaultSocialImage": "/images/bb-img-0.jpeg",
+    "defaultMetaDescription": "Bjørsvik Brass leverer profesjonell brassmusikk til bedrift, event og kultur, og utviklar satsingar for barn, unge og nye førebilete.",
+    "defaultMetaTags": [
+        {
+            "property": "og:site_name",
+            "content": "Bjørsvik Brass"
+        },
+        {
+            "property": "og:type",
+            "content": "website"
+        },
+        {
+            "property": "og:locale",
+            "content": "nb_NO"
+        },
+        {
+            "property": "twitter:card",
+            "content": "summary_large_image"
+        }
+    ],
     "type": "Config",
     "header": "content/data/header.json"
 }
