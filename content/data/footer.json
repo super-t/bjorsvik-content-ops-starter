@@ -54,7 +54,16 @@
                 "iconPosition": "right",
                 "style": "secondary",
                 "type": "Link"
+            },
+                        {
+                "label": "#ErfaringOgLidenskapiSamspel",
+                "url": "/",
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "secondary",
+                "type": "Link"
             }
+
         ],
         "type": "FooterLinksGroup"
     },

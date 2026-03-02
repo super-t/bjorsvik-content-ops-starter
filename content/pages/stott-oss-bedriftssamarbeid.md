@@ -13,7 +13,7 @@ sections:
       Med medlemskap i Bjørsvik Brass får de profilering, opplevingar og eit
       konkret bidrag til kvalitet, rekruttering og mangfald.
     actions:
-      - label: Sjå støttespelar-pakkar
+      - label: Sjå dei ulike pakkane
         altText: Gå til støttespelar-pakkar
         url: '#abonnement'
         showIcon: false
@@ -92,7 +92,7 @@ sections:
           - Logo på heimesida
           - 2 gratisbillettar
         actions:
-          - label: Vel Bronse i skjema
+          - label: Vel bronsenivå
             altText: Opne skjema med Bronse ferdig utfylt
             url: https://docs.google.com/forms/d/e/1FAIpQLSftMTDfU-QtqCNSiChNKpguBXpJdxRB8gH8M_T_Mw1ba7qwIA/viewform?usp=pp_url&entry.807483525=Bronse++-+Logo+p%C3%A5+hjemmesiden+-+2+gratisbilletter+(1290,-/%C3%A5r)
             showIcon: false
@@ -118,7 +118,7 @@ sections:
           - Logo på heimesida og i program
           - 5 gratisbillettar
         actions:
-          - label: Vel Sølv i skjema
+          - label: Vel sølvnivå
             altText: Opne skjema med Sølv ferdig utfylt
             url: https://docs.google.com/forms/d/e/1FAIpQLSftMTDfU-QtqCNSiChNKpguBXpJdxRB8gH8M_T_Mw1ba7qwIA/viewform?usp=pp_url&entry.807483525=S%C3%B8lv+-+Logo+p%C3%A5+hjemmesiden+og+i+programmer+-+5+gratisbilletter+(2900,-/%C3%A5r)
             showIcon: false
@@ -144,7 +144,7 @@ sections:
           - Logo og valfri eksponering
           - 8 VIP-billettar
         actions:
-          - label: Vel Gull i skjema
+          - label: Vel gullnivå
             altText: Opne skjema med Gull ferdig utfylt
             url: https://docs.google.com/forms/d/e/1FAIpQLSftMTDfU-QtqCNSiChNKpguBXpJdxRB8gH8M_T_Mw1ba7qwIA/viewform?usp=pp_url&entry.807483525=Gull+-+Logo+og+valgfri+eksponering+-+8+VIP-billetter+(6900,-/%C3%A5r)
             showIcon: false
@@ -169,7 +169,7 @@ sections:
           - frå 14 900 kr/år
           - Tilpassa samarbeid etter behov
         actions:
-          - label: Vel Platinum i skjema
+          - label: Vel platinumnivå
             altText: Opne skjema med Platinum ferdig utfylt
             url: https://docs.google.com/forms/d/e/1FAIpQLSftMTDfU-QtqCNSiChNKpguBXpJdxRB8gH8M_T_Mw1ba7qwIA/viewform?usp=pp_url&entry.807483525=Platinum+-+Tilpasset+etter+behov+-+(fra+14+900,-/%C3%A5r)
             showIcon: false
@@ -194,7 +194,7 @@ sections:
           - Tilpassa etter behov
           - Eiga avtale for profilering og samarbeid
         actions:
-          - label: Vel Hovudsponsor i skjema
+          - label: Vel hovudsponsornivå
             altText: Opne skjema med Hovudsponsor ferdig utfylt
             url: https://docs.google.com/forms/d/e/1FAIpQLSftMTDfU-QtqCNSiChNKpguBXpJdxRB8gH8M_T_Mw1ba7qwIA/viewform?usp=pp_url&entry.807483525=Hovedsponsor+-+Tilpasset+etter+behov
             showIcon: false

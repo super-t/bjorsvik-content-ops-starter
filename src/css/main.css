@@ -356,6 +356,22 @@
     #medlemskap-hovudsponsor {
         border: 1px solid rgba(255, 255, 255, 0.45);
     }
+    #kva-far-de-1 > .w-full.flex,
+    #kva-far-de-2 > .w-full.flex,
+    #kva-far-de-3 > .w-full.flex,
+    #kva-far-de-4 > .w-full.flex {
+        gap: 0.75rem;
+        align-items: center;
+    }
+    #kva-far-de-1 > .w-full.flex > div:last-child,
+    #kva-far-de-2 > .w-full.flex > div:last-child,
+    #kva-far-de-3 > .w-full.flex > div:last-child,
+    #kva-far-de-4 > .w-full.flex > div:last-child {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 100%;
+    }
     .underline-line-through {
         text-decoration-line: underline line-through
     }

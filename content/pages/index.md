@@ -21,7 +21,7 @@ sections:
         iconPosition: right
         style: primary
         type: Button
-      - label: Støtt oss
+      - label: Blir støttespelar
         altText: Gå til støttesida
         url: /stott-oss-bedriftssamarbeid
         showIcon: false
@@ -54,7 +54,7 @@ sections:
 
   - type: GenericSection
     title:
-      text: '#erfaringoglidenskapisamspel'
+      text: Erfaring og lidenskap i samspel
       color: text-dark
       type: TitleBlock
     text: >-

@@ -65,56 +65,84 @@ sections:
       type: TitleBlock
     items:
       - type: FeaturedItem
+        elementId: kva-far-de-1
         title: Skreddarsydd repertoar
         text: Tilpassa dykkar arrangement og profil.
+        image:
+          url: /images/kva-far-de-1.png
+          altText: Ikon for skreddarsydd repertoar
+          imageClassName: w-full h-36 object-contain
+          type: ImageBlock
         colors: bg-light-fg-dark
         styles:
           self:
             padding:
-              - pt-6
-              - pl-6
-              - pb-6
-              - pr-6
+              - pt-4
+              - pl-4
+              - pb-4
+              - pr-4
             borderRadius: x-large
+            flexDirection: row
             textAlign: left
       - type: FeaturedItem
+        elementId: kva-far-de-2
         title: Profesjonell gjennomføring
         text: Tydeleg avtale og trygg leveranse.
+        image:
+          url: /images/kva-far-de-2.png
+          altText: Ikon for profesjonell gjennomføring
+          imageClassName: w-full h-36 object-contain
+          type: ImageBlock
         colors: bg-light-fg-dark
         styles:
           self:
             padding:
-              - pt-6
-              - pl-6
-              - pb-6
-              - pr-6
+              - pt-4
+              - pl-4
+              - pb-4
+              - pr-4
             borderRadius: x-large
+            flexDirection: row
             textAlign: left
       - type: FeaturedItem
+        elementId: kva-far-de-3
         title: Stemning og fellesskap
         text: Live musikk som samlar folk.
+        image:
+          url: /images/kva-far-de-3.png
+          altText: Ikon for stemning og fellesskap
+          imageClassName: w-full h-36 object-contain
+          type: ImageBlock
         colors: bg-light-fg-dark
         styles:
           self:
             padding:
-              - pt-6
-              - pl-6
-              - pb-6
-              - pr-6
+              - pt-4
+              - pl-4
+              - pb-4
+              - pr-4
             borderRadius: x-large
+            flexDirection: row
             textAlign: left
       - type: FeaturedItem
+        elementId: kva-far-de-4
         title: Fleksibel besetning
         text: Heilt brassband eller mindre ensemble.
+        image:
+          url: /images/kva-far-de-4.png
+          altText: Ikon for fleksibel besetning
+          imageClassName: w-full h-36 object-contain
+          type: ImageBlock
         colors: bg-light-fg-dark
         styles:
           self:
             padding:
-              - pt-6
-              - pl-6
-              - pb-6
-              - pr-6
+              - pt-4
+              - pl-4
+              - pb-4
+              - pr-4
             borderRadius: x-large
+            flexDirection: row
             textAlign: left
     variant: two-col-grid
     colors: bg-neutral-fg-dark
@@ -138,11 +166,16 @@ sections:
       type: TitleBlock
     items:
       - type: FeaturedItem
-        title: ☀️ Sommarfest og arrangement
+        title: Sommarfest og arrangement
         text: |-
           - 10-60 min
           - tilpassa repertoar
           - enkelt oppsett
+        image:
+          url: /images/event-illustration-1.png
+          altText: Illustrasjon for sommarfest og arrangement
+          imageClassName: w-full h-64 object-cover rounded-lg
+          type: ImageBlock
         colors: bg-light-fg-dark
         styles:
           self:
@@ -155,11 +188,16 @@ sections:
             flexDirection: col
             textAlign: left
       - type: FeaturedItem
-        title: 🏛️ Jubileum og markering
+        title: Jubileum og markering
         text: |-
           - tydelege høgdepunkt
           - kan integrerast i program
           - tilpassa lokale
+        image:
+          url: /images/event-illustration-2.png
+          altText: Illustrasjon for jubileum og markering
+          imageClassName: w-full h-64 object-cover rounded-lg
+          type: ImageBlock
         colors: bg-light-fg-dark
         styles:
           self:
@@ -172,11 +210,16 @@ sections:
             flexDirection: col
             textAlign: left
       - type: FeaturedItem
-        title: 🎄 Julebord og juleavslutning
+        title: Julebord og juleavslutning
         text: |-
           - klassisk og moderne
           - stemningsskapande
           - kort eller fullt program
+        image:
+          url: /images/event-illustration-3.png
+          altText: Illustrasjon for julebord og juleavslutning
+          imageClassName: w-full h-64 object-cover rounded-lg
+          type: ImageBlock
         colors: bg-light-fg-dark
         styles:
           self:
@@ -189,11 +232,16 @@ sections:
             flexDirection: col
             textAlign: left
       - type: FeaturedItem
-        title: 🤝 Kunde- og profilarrangement
+        title: Kunde- og profilarrangement
         text: |-
           - profilbyggjande
           - passar konferanse og lansering
           - leverast som innslag eller konsert
+        image:
+          url: /images/event-illustration-4.png
+          altText: Illustrasjon for kunde- og profilarrangement
+          imageClassName: w-full h-64 object-cover rounded-lg
+          type: ImageBlock
         colors: bg-light-fg-dark
         styles:
           self:
