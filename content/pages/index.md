@@ -9,9 +9,9 @@ sections:
       type: TitleBlock
     subtitle: Erfaring og lidenskap i samspel
     text: >-
-      Velkomen til Bjørsvik Brass. Her finn du rask oversikt over sidene våre,
-      og korleis vi jobbar med kvalitet, meistring og utvikling i samspel med
-      andre.
+      Bjørsvik Brass skaper sterke musikkopplevingar med kvalitet, presisjon og
+      speleglede - og bruker erfaringa vår til å inspirere, løfte og utvikle
+      kulturlivet rundt oss.
     actions:
       - label: Bestill oss
         altText: Gå til bestillingssida
@@ -29,130 +29,27 @@ sections:
         iconPosition: right
         style: secondary
         type: Button
-    backgroundImage:
-      type: BackgroundImage
-      url: /images/bb-img-0.jpeg
-      altText: Bjørsvik Brass hovudbilete
-      backgroundSize: cover
-      backgroundPosition: center
-      backgroundRepeat: no-repeat
-      opacity: 34
+    backgroundVideo:
+      title: Hero bakgrunnsvideo
+      url: /images/0cc874729ebc488fa1501ed09d1654d7.mp4
+      poster: /images/bb-img-0.jpeg
+      autoplay: true
+      loop: true
+      muted: true
+      controls: false
+      opacity: 35
+      type: VideoBlock
     colors: bg-dark-fg-light
     styles:
       self:
         alignItems: flex-start
         justifyContent: flex-start
         flexDirection: col
+        minHeight: min-h-[28rem] md:min-h-[34rem]
         padding:
           - pt-32
           - pl-16
           - pb-32
-          - pr-16
-
-  - type: FeaturedItemsSection
-    title:
-      text: Utforsk undersider
-      color: text-dark
-      type: TitleBlock
-    subtitle: Kort veg til det du leitar etter.
-    items:
-      - type: FeaturedItem
-        title: Bestill oss
-        text: Musikk til bedriftsarrangement og eventproduksjon.
-        actions:
-          - label: Gå til sida
-            altText: Opne bestillingssida
-            url: /bjorsvik-brass-bedrift
-            showIcon: true
-            icon: arrowRight
-            iconPosition: right
-            style: secondary
-            type: Link
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            textAlign: left
-      - type: FeaturedItem
-        title: Støtt oss
-        text: Bedriftssamarbeid og medlemskap som styrkjer satsingane våre.
-        actions:
-          - label: Gå til sida
-            altText: Opne støttesida
-            url: /stott-oss-bedriftssamarbeid
-            showIcon: true
-            icon: arrowRight
-            iconPosition: right
-            style: secondary
-            type: Link
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            textAlign: left
-      - type: FeaturedItem
-        title: '#HunKomponerer'
-        text: Ei langsiktig satsing for kvinnelege komponistar og nye førebilete.
-        actions:
-          - label: Gå til sida
-            altText: Opne #HunKomponerer
-            url: /hunkomponerer
-            showIcon: true
-            icon: arrowRight
-            iconPosition: right
-            style: secondary
-            type: Link
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            textAlign: left
-      - type: FeaturedItem
-        title: '#BjørvikUngBrass'
-        text: Rekruttering, meistring og speleglede for barn og unge.
-        actions:
-          - label: Gå til sida
-            altText: Opne #BjørvikUngBrass
-            url: /bjorvikungbrass
-            showIcon: true
-            icon: arrowRight
-            iconPosition: right
-            style: secondary
-            type: Link
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            textAlign: left
-    variant: two-col-grid
-    colors: bg-neutral-fg-dark
-    styles:
-      self:
-        justifyContent: flex-start
-        padding:
-          - pt-14
-          - pl-16
-          - pb-10
           - pr-16
 
   - type: GenericSection

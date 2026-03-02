@@ -4,7 +4,7 @@ slug: bjorsvik-brass-bedrift
 sections:
   - type: GenericSection
     title:
-      text: Profesjonell brassmusikk til bedriftsarrangement og eventproduksjon
+      text: Levande musikk til bedriftsarrangement og eventar
       color: text-light
       styles:
         self:
@@ -46,10 +46,11 @@ sections:
         alignItems: flex-start
         justifyContent: flex-start
         flexDirection: col
+        minHeight: min-h-[28rem] md:min-h-[34rem]
         padding:
-          - pt-40
+          - pt-32
           - pl-16
-          - pb-40
+          - pb-32
           - pr-16
       text:
         textAlign: left
@@ -269,7 +270,7 @@ sections:
       autoplay: true
       loop: true
       muted: true
-      controls: false
+      controls: true
       aspectRatio: '16:9'
       type: VideoBlock
     colors: bg-light-fg-dark

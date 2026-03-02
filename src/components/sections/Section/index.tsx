@@ -17,6 +17,7 @@ export default function Section(props) {
                 className,
                 colors,
                 'relative',
+                styles?.minHeight ? styles?.minHeight : undefined,
                 styles?.margin ? mapStyles({ margin: styles?.margin }) : undefined,
                 styles?.padding ? mapStyles({ padding: styles?.padding }) : 'px-4 py-28'
             )}

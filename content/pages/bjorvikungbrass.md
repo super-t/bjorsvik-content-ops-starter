@@ -12,24 +12,44 @@ sections:
       \#BjørvikUngBrass er Bjørsvik Brass si satsing på rekruttering, meistring
       og speleglede. Gjennom samspel med erfarne musikarar byggjer vi tryggleik,
       utvikling og motivasjon for neste generasjon.
-    backgroundImage:
-      type: BackgroundImage
-      url: /images/bub3.webp
-      altText: BjørvikUngBrass
-      backgroundSize: cover
-      backgroundPosition: center
-      backgroundRepeat: no-repeat
-      opacity: 24
-    colors: bg-primary-fg-light
+    actions:
+      - label: Støtt satsinga
+        altText: Gå til støttesida
+        url: /stott-oss-bedriftssamarbeid
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        type: Button
+      - label: Bestill oss
+        altText: Gå til bestillingssida
+        url: /bjorsvik-brass-bedrift
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: secondary
+        type: Button
+    backgroundVideo:
+      title: Hero bakgrunnsvideo
+      url: /images/0cc874729ebc488fa1501ed09d1654d7.mp4
+      poster: /images/bub3.webp
+      autoplay: true
+      loop: true
+      muted: true
+      controls: false
+      opacity: 35
+      type: VideoBlock
+    colors: bg-dark-fg-light
     styles:
       self:
         alignItems: flex-start
         justifyContent: flex-start
         flexDirection: col
+        minHeight: min-h-[28rem] md:min-h-[34rem]
         padding:
-          - pt-28
+          - pt-32
           - pl-16
-          - pb-28
+          - pb-32
           - pr-16
 
   - type: GenericSection

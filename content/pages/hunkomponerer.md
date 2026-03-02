@@ -11,6 +11,23 @@ sections:
     text: >-
       Ei langsiktig satsing for likestilling, representasjon og nye stemmer i
       korpsmusikken.
+    actions:
+      - label: Støtt satsinga
+        altText: Gå til støttesida
+        url: /stott-oss-bedriftssamarbeid
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        type: Button
+      - label: Bestill oss
+        altText: Gå til bestillingssida
+        url: /bjorsvik-brass-bedrift
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: secondary
+        type: Button
     backgroundVideo:
       title: Hero bakgrunnsvideo
       url: /images/0cc874729ebc488fa1501ed09d1654d7.mp4
@@ -27,10 +44,11 @@ sections:
         alignItems: flex-start
         justifyContent: flex-start
         flexDirection: col
+        minHeight: min-h-[28rem] md:min-h-[34rem]
         padding:
-          - pt-28
+          - pt-32
           - pl-16
-          - pb-28
+          - pb-32
           - pr-16
 
   - type: GenericSection

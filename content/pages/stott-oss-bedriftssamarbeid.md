@@ -37,6 +37,7 @@ sections:
         alignItems: flex-start
         justifyContent: flex-start
         flexDirection: col
+        minHeight: min-h-[28rem] md:min-h-[34rem]
         padding:
           - pt-32
           - pl-16
