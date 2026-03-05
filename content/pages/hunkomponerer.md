@@ -66,40 +66,54 @@ sections:
           - pb-8
           - pr-16
 
-  - type: FeaturedItemsSection
+  - type: GenericSection
     title:
       text: Historikk
       color: text-dark
       type: TitleBlock
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        justifyContent: flex-start
+        padding:
+          - pt-16
+          - pl-16
+          - pb-2
+          - pr-16
+
+  - type: FeaturedItemsSection
+    title:
+      text: 2026
+      color: text-dark
+      type: TitleBlock
     items:
       - type: FeaturedItem
-        title: 2022
+        title: SHE - a tribute to woman of the world
+        imageLink: /blog/elisabeth-vannebo-urfremforer-ny-trombonekonsert
         text: >-
-          Urpremiere på Past and Present av vårt eige medlem Elisabeth Vannebo,
-          skrive spesielt til Bjørsvik Brass. Konserten synte korleis
-          #HunKomponerer også løfter fram interne ressursar og komponistar frå
-          eigne rekkjer.
+          Urframføring av ny trombonekonsert skriven av Elisabeth Vannebo, med
+          Grethe Tonheim som solist.
         actions:
-          - label: Les meir
-            altText: Les meir om #HunKomponerer 2022
-            url: https://bjorsvikbrass.wordpress.com/2022/09/20/hunkomponerer/
+          - label: Les blogginnlegget
+            altText: Les om SHE-konserten og urframføringa
+            url: /blog/elisabeth-vannebo-urfremforer-ny-trombonekonsert
             showIcon: true
             icon: arrowRight
             iconPosition: right
             style: secondary
             type: Link
-          - label: Vis stort bilete
-            altText: Opne stort bilete frå 2022
-            url: /images/hk1.jpg
-            showIcon: false
+          - label: Les meir om arrangementet
+            altText: Opne SHE-arrangementet på Facebook
+            url: https://www.facebook.com/events/4324369881185394
+            showIcon: true
             icon: arrowRight
             iconPosition: right
             style: secondary
             type: Link
         image:
-          url: /images/hk1.jpg
-          altText: Hun Komponerer 2022
-          imageClassName: w-36 h-36 sm:w-44 sm:h-44 object-cover rounded-lg
+          url: /images/she.jpg
+          altText: SHE - a tribute to woman of the world
+          imageClassName: w-full h-[220px] object-contain rounded-lg bg-white
           type: ImageBlock
         colors: bg-light-fg-dark
         styles:
@@ -110,98 +124,31 @@ sections:
               - pb-6
               - pr-6
             borderRadius: large
-            flexDirection: row
+            flexDirection: col
             textAlign: left
+    variant: small-list
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        justifyContent: flex-start
+        padding:
+          - pt-0
+          - pl-16
+          - pb-4
+          - pr-16
+
+  - type: FeaturedItemsSection
+    title:
+      text: 2024/25
+      color: text-dark
+      type: TitleBlock
+    items:
       - type: FeaturedItem
-        title: 2023
+        title: Bestillingsverk frå Ingebjørg Vilhelmsen
+        imageLink: https://bjorsvikbrass.wordpress.com/2024/10/20/ei-reise-gjennom-norske-nasjonalskattar/
         text: >-
-          Samproduksjon med Tertnes Brass i Nykirken med to separate avdelingar
-          under kvar sin dirigent. Bjørsvik framførte fleire noregspremierar og
-          ei urframføring, i eit offentleg arrangement med variert og
-          formidlingsretta program.
-        actions:
-          - label: Les meir
-            altText: Les meir om #HunKomponerer 2023
-            url: https://bjorsvikbrass.wordpress.com/2023/08/23/hunkomponerer-vol-2/
-            showIcon: true
-            icon: arrowRight
-            iconPosition: right
-            style: secondary
-            type: Link
-          - label: Vis stort bilete
-            altText: Opne stort bilete frå 2023
-            url: /images/hk2.jpg
-            showIcon: false
-            icon: arrowRight
-            iconPosition: right
-            style: secondary
-            type: Link
-        image:
-          url: /images/hk2.jpg
-          altText: Hun Komponerer 2023
-          imageClassName: w-36 h-36 sm:w-44 sm:h-44 object-cover rounded-lg
-          type: ImageBlock
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-6
-              - pl-6
-              - pb-6
-              - pr-6
-            borderRadius: large
-            flexDirection: row
-            textAlign: left
-      - type: FeaturedItem
-        title: 2024
-        text: >-
-          Fokus på komponisten Ingebjørg Vilhelmsen i samarbeidskonsert med
-          Salhus og Haukås Musikklag. Bjørsvik presenterte eige program med verk
-          av Phyllis Tate og Elisabeth Vannebo, samt utdrag frå nykomponert
-          Siddis-program. Prosjektet vart realisert med støtte frå Sparebanken
-          Vest, med solistar, konferansier og gjestekorps.
-        actions:
-          - label: Les meir
-            altText: Les meir om #HunKomponerer vol 3 (2024)
-            url: https://bjorsvikbrass.wordpress.com/2024/09/19/hunkomponerer-vol3/
-            showIcon: true
-            icon: arrowRight
-            iconPosition: right
-            style: secondary
-            type: Link
-          - label: Vis stort bilete
-            altText: Opne stort bilete frå 2024
-            url: /images/hk3.jpg
-            showIcon: false
-            icon: arrowRight
-            iconPosition: right
-            style: secondary
-            type: Link
-        image:
-          url: /images/hk3.jpg
-          altText: Hun Komponerer 2024
-          imageClassName: w-36 h-36 sm:w-44 sm:h-44 object-cover rounded-lg
-          type: ImageBlock
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-6
-              - pl-6
-              - pb-6
-              - pr-6
-            borderRadius: large
-            flexDirection: row
-            textAlign: left
-      - type: FeaturedItem
-        title: 2024/25
-        text: >-
-          Fullt bestillingsverk frå Ingebjørg Vilhelmsen med fem nyskrivne
-          stykke inspirert av norsk kunst og kulturarv, mellom anna Kvitebjørn
-          kong Valemon, Soria Moria og Skrik. Verket vart framført som
-          konkurranseprogram på Siddis Brass. Prosjektet vart realisert med
-          støtte frå Sparebanken Vest (Hjertebank), og utdrag vart presentert på
-          #HunKomponerer-konserten saman med Salhus og Haukås Musikklag.
+          Fem nyskrivne stykke inspirert av norsk kunst og kulturarv, framført
+          som konkurranseprogram på Siddis Brass.
         actions:
           - label: Les meir
             altText: Les meir om Ingebjørg Vilhelmsen-konserten 2024/25
@@ -222,7 +169,7 @@ sections:
         image:
           url: /images/hk4.jpg
           altText: Hun Komponerer 2024/25
-          imageClassName: w-36 h-36 sm:w-44 sm:h-44 object-cover rounded-lg
+          imageClassName: w-full h-[220px] object-contain rounded-lg bg-white
           type: ImageBlock
         colors: bg-light-fg-dark
         styles:
@@ -233,7 +180,7 @@ sections:
               - pb-6
               - pr-6
             borderRadius: large
-            flexDirection: row
+            flexDirection: col
             textAlign: left
     variant: small-list
     colors: bg-light-fg-dark
@@ -241,9 +188,231 @@ sections:
       self:
         justifyContent: flex-start
         padding:
-          - pt-16
+          - pt-0
+          - pl-16
+          - pb-4
+          - pr-16
+
+  - type: FeaturedItemsSection
+    title:
+      text: 2024
+      color: text-dark
+      type: TitleBlock
+    items:
+      - type: FeaturedItem
+        title: #HunKomponerer vol. 3
+        imageLink: https://bjorsvikbrass.wordpress.com/2024/09/19/hunkomponerer-vol3/
+        text: >-
+          Samarbeidskonsert med Salhus og Haukås Musikklag, med verk av Phyllis
+          Tate og Elisabeth Vannebo.
+        actions:
+          - label: Les meir
+            altText: Les meir om #HunKomponerer vol 3 (2024)
+            url: https://bjorsvikbrass.wordpress.com/2024/09/19/hunkomponerer-vol3/
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            type: Link
+          - label: Vis stort bilete
+            altText: Opne stort bilete frå 2024
+            url: /images/hk3.jpg
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            type: Link
+        image:
+          url: /images/hk3.jpg
+          altText: Hun Komponerer 2024
+          imageClassName: w-full h-[220px] object-contain rounded-lg bg-white
+          type: ImageBlock
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pl-6
+              - pb-6
+              - pr-6
+            borderRadius: large
+            flexDirection: col
+            textAlign: left
+    variant: small-list
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        justifyContent: flex-start
+        padding:
+          - pt-0
+          - pl-16
+          - pb-4
+          - pr-16
+
+  - type: FeaturedItemsSection
+    title:
+      text: 2023
+      color: text-dark
+      type: TitleBlock
+    items:
+      - type: FeaturedItem
+        title: #HunKomponerer vol. 2
+        imageLink: https://bjorsvikbrass.wordpress.com/2023/08/23/hunkomponerer-vol-2/
+        text: >-
+          Samproduksjon med Tertnes Brass i Nykirken med urframføring og fleire
+          noregspremierar.
+        actions:
+          - label: Les meir
+            altText: Les meir om #HunKomponerer 2023
+            url: https://bjorsvikbrass.wordpress.com/2023/08/23/hunkomponerer-vol-2/
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            type: Link
+          - label: Vis stort bilete
+            altText: Opne stort bilete frå 2023
+            url: /images/hk2.jpg
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            type: Link
+        image:
+          url: /images/hk2.jpg
+          altText: Hun Komponerer 2023
+          imageClassName: w-full h-[220px] object-contain rounded-lg bg-white
+          type: ImageBlock
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pl-6
+              - pb-6
+              - pr-6
+            borderRadius: large
+            flexDirection: col
+            textAlign: left
+    variant: small-list
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        justifyContent: flex-start
+        padding:
+          - pt-0
+          - pl-16
+          - pb-4
+          - pr-16
+
+  - type: FeaturedItemsSection
+    title:
+      text: 2022
+      color: text-dark
+      type: TitleBlock
+    items:
+      - type: FeaturedItem
+        title: Urpremiere på Past and Present
+        imageLink: https://bjorsvikbrass.wordpress.com/2022/09/20/hunkomponerer/
+        text: >-
+          Urpremiere på verk skrive av Elisabeth Vannebo spesielt til Bjørsvik
+          Brass.
+        actions:
+          - label: Les meir
+            altText: Les meir om #HunKomponerer 2022
+            url: https://bjorsvikbrass.wordpress.com/2022/09/20/hunkomponerer/
+            showIcon: true
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            type: Link
+          - label: Vis stort bilete
+            altText: Opne stort bilete frå 2022
+            url: /images/hk1.jpg
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            type: Link
+        image:
+          url: /images/hk1.jpg
+          altText: Hun Komponerer 2022
+          imageClassName: w-full h-[220px] object-contain rounded-lg bg-white
+          type: ImageBlock
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pl-6
+              - pb-6
+              - pr-6
+            borderRadius: large
+            flexDirection: col
+            textAlign: left
+    variant: small-list
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        justifyContent: flex-start
+        padding:
+          - pt-0
           - pl-16
           - pb-8
+          - pr-16
+
+  - type: GenericSection
+    title:
+      text: Komponistportrett
+      color: text-dark
+      type: TitleBlock
+    text: >-
+      Elisabeth Vannebo er ein sentral komponist i #HunKomponerer og har
+      skrive fleire verk for Bjørsvik Brass. Arbeidet hennar kombinerer
+      kunstnarisk tyngd, spelbarheit og eit sterkt blikk for klang i
+      blåseensemble.
+    media:
+      url: /images/elisabeth_vannebo.jpg
+      altText: Elisabeth Vannebo
+      type: ImageBlock
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        flexDirection: col
+        justifyContent: flex-start
+        padding:
+          - pt-8
+          - pl-16
+          - pb-16
+          - pr-16
+
+  - type: GenericSection
+    title:
+      text: Konsertplakat
+      color: text-dark
+      type: TitleBlock
+    text: Les meir om konserten og urframføringa i blogginnlegget vårt.
+    actions:
+      - label: Les blogginnlegget om konserten
+        altText: Opne blogginnlegg om SHE-konserten
+        url: /blog/elisabeth-vannebo-urfremforer-ny-trombonekonsert
+        showIcon: true
+        icon: arrowRight
+        iconPosition: right
+        style: secondary
+        type: Link
+    media:
+      url: /images/she.jpg
+      altText: SHE - a tribute to woman of the world
+      type: ImageBlock
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        justifyContent: flex-start
+        padding:
+          - pt-0
+          - pl-16
+          - pb-16
           - pr-16
 
 seo:

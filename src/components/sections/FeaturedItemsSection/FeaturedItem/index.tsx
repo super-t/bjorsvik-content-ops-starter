@@ -4,15 +4,31 @@ import Markdown from 'markdown-to-jsx';
 
 import { mapStylesToClassNames as mapStyles } from '../../../../utils/map-styles-to-class-names';
 import Action from '../../../atoms/Action';
+import Link from '../../../atoms/Link';
 import ImageBlock from '../../../blocks/ImageBlock';
 
 export default function FeaturedItem(props) {
-    const { elementId, title, tagline, subtitle, text, image, actions = [], colors = 'bg-light-fg-dark', styles = {}, hasSectionTitle } = props;
+    const { elementId, title, tagline, subtitle, text, image, imageLink, actions = [], colors = 'bg-light-fg-dark', styles = {}, hasSectionTitle } = props;
     const fieldPath = props['data-sb-field-path'];
     const TitleTag = hasSectionTitle ? 'h3' : 'h2';
     const flexDirection = styles?.self?.flexDirection ?? 'col';
     const hasTextContent = !!(tagline || title || subtitle || text || actions.length > 0);
     const hasImage = !!image?.url;
+    const imageContainerClassName = image?.containerClassName;
+    const imageContent = hasImage ? (
+        <ImageBlock
+            {...image}
+            className={classNames(
+                'flex',
+                mapStyles({ justifyContent: styles?.self?.justifyContent ?? 'flex-start' }),
+                imageContainerClassName,
+                {
+                    'xs:shrink-0': !!imageContainerClassName && hasTextContent && (flexDirection === 'row' || flexDirection === 'row-reversed')
+                }
+            )}
+            {...(fieldPath && { 'data-sb-field-path': '.image' })}
+        />
+    ) : null;
 
     return (
         <div
@@ -36,15 +52,14 @@ export default function FeaturedItem(props) {
             data-sb-field-path={fieldPath}
         >
             <div className={classNames('w-full', 'flex', mapFlexDirectionStyles(flexDirection, hasTextContent, hasImage), 'gap-6')}>
-                {hasImage && (
-                    <ImageBlock
-                        {...image}
-                        className={classNames('flex', mapStyles({ justifyContent: styles?.self?.justifyContent ?? 'flex-start' }), {
-                            'xs:w-[28.4%] xs:shrink-0': hasTextContent && (flexDirection === 'row' || flexDirection === 'row-reversed')
-                        })}
-                        {...(fieldPath && { 'data-sb-field-path': '.image' })}
-                    />
-                )}
+                {hasImage &&
+                    (imageLink ? (
+                        <Link href={imageLink} aria-label={title ? `Les meir om ${title}` : 'Les meir'} className="block">
+                            {imageContent}
+                        </Link>
+                    ) : (
+                        imageContent
+                    ))}
                 {hasTextContent && (
                     <div
                         className={classNames('w-full', {

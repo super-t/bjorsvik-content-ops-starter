@@ -163,31 +163,6 @@ sections:
             borderRadius: x-large
             textAlign: left
       - type: FeaturedItem
-        elementId: medlemskap-platinum
-        title: Platinum
-        text: |-
-          - frå 14 900 kr/år
-          - Tilpassa samarbeid etter behov
-        actions:
-          - label: Vel platinumnivå
-            altText: Opne skjema med Platinum ferdig utfylt
-            url: https://docs.google.com/forms/d/e/1FAIpQLSftMTDfU-QtqCNSiChNKpguBXpJdxRB8gH8M_T_Mw1ba7qwIA/viewform?usp=pp_url&entry.807483525=Platinum+-+Tilpasset+etter+behov+-+(fra+14+900,-/%C3%A5r)
-            showIcon: false
-            icon: arrowRight
-            iconPosition: right
-            style: primary
-            type: Button
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            textAlign: left
-      - type: FeaturedItem
         elementId: medlemskap-hovudsponsor
         title: Hovudsponsor
         text: |-
