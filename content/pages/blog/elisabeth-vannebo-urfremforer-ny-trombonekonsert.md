@@ -1,5 +1,5 @@
 ---
-title: Elisabeth Vannebo urframfører ny trombonekonsert på «SHE - a tribute to woman of the world»
+title: Ny trombonekonsert av Elisabeth Vannebo blir urframført på «SHE – a tribute to women of the world» med trombonist Grethe Tonheim
 slug: elisabeth-vannebo-urfremforer-ny-trombonekonsert
 date: '2026-03-05'
 excerpt: >-
