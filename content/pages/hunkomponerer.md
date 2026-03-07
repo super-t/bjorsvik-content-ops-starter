@@ -370,7 +370,7 @@ sections:
       Elisabeth Vannebo er ein sentral komponist i #HunKomponerer og har
       skrive fleire verk for Bjørsvik Brass. Arbeidet hennar kombinerer
       kunstnarisk tyngd, spelbarheit og eit sterkt blikk for klang i
-      blåseensemble.
+      blåseensemble. Foto: Kristin Maute.
     media:
       url: /images/elisabeth_vannebo.jpg
       altText: Elisabeth Vannebo

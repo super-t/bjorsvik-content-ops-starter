@@ -33,6 +33,8 @@ Til konserten på kvinnedagen urframfører Bjørsvik Brass ein ny trombonekonser
 
 ![Elisabeth Vannebo](/images/elisabeth_vannebo.jpg)
 
+_Foto: Kristin Maute_
+
 Arrangement:
 [SHE - a tribute to woman of the world](https://www.facebook.com/events/4324369881185394)
 
