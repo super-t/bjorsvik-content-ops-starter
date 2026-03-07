@@ -1,5 +1,5 @@
 {
-    "favicon": "/images/favicon.svg",
+    "favicon": "/images/apple-touch-icon.png",
     "appleTouchIcon": "/images/apple-touch-icon.png",
     "themeColor": "#6A0DAD",
     "footer": "content/data/footer.json",
