@@ -36,8 +36,8 @@
             "type": "Link"
         },
         {
-            "label": "#BjørvikUngBrass",
-            "url": "/bjorvikungbrass",
+            "label": "#BjørsvikUngBrass",
+            "url": "/bjorsvikungbrass",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",

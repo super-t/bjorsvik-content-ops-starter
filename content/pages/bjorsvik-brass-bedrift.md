@@ -28,7 +28,7 @@ sections:
         style: secondary
         type: Button
     text: >-
-      Bjørsvik Brass leverer fleksible og pålitelege musikkinnslag - frå
+      Bjørsvik Brass leverer fleksible og pålitelege musikkinnslag, frå
       sommarfest til større sceneproduksjonar.
     backgroundVideo:
       title: Hero bakgrunnsvideo
@@ -283,7 +283,7 @@ sections:
           textAlign: left
       type: TitleBlock
     text: |-
-      Vi er ein leveringsdyktig musikkpartnar for profesjonelle produksjonar. De får tydeleg kontaktpunkt, raske avklaringar og eit ensemble som kan skalerast etter scene og format.
+      Vi er ein leveringsdyktig musikkpartnar for profesjonelle produksjonar. De får eitt tydeleg kontaktpunkt, raske avklaringar og eit ensemble som kan skalerast etter scene og format.
 
       - Rask respons og ryddig avtale
       - Teknisk tilpassing i samarbeid med dykkar leverandør
@@ -346,7 +346,7 @@ sections:
         tagline: Speling på kaia for Fjordkraft
         title: >-
           «Dette var en perfekt måte å skape god atmosfære på - alle smiler»
-        subtitle: Kari Normann, Bookingansvarlig Fjordline
+        subtitle: Kari Normann, bookingansvarleg i Fjordline
         image:
           url: /images/IMG_2924.jpeg
           altText: Referanseperson 1
@@ -367,10 +367,10 @@ sections:
             flexDirection: row
             justifyContent: flex-start
       - type: FeaturedItem
-        tagline: Sommerspil på Fløien
+        tagline: Sommarspel på Fløyen
         title: >-
           «Vi vil ha de tilbake neste år - veldig gøy for store og små»
-        subtitle: Ola Normann, Sjef for aktivitetsprogrammet på Fløien
+        subtitle: Ola Normann, sjef for aktivitetsprogrammet på Fløyen
         image:
           url: /images/att.VyyxhJuBnEz2kWlWcFMT0YRBczNk9UdIUVWmiwqHPv0.jpeg
           altText: Referanseperson 2
@@ -394,7 +394,7 @@ sections:
         tagline: Julegrantenning på Os
         title: >-
           «Ingenting skaper julestemning som brass - sånn er det bare»
-        subtitle: Kari Normann, Rema1000 Os
+        subtitle: Kari Normann, REMA 1000 Os
         image:
           url: /images/att.M_D-cdMixOfyGke1Z7t0gh9dz9_vaTvIgi75inkp3Fs.jpeg
           altText: Referanseperson 3

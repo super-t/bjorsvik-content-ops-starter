@@ -10,7 +10,7 @@ sections:
     subtitle: Erfaring og lidenskap i samspel
     text: >-
       Bjørsvik Brass skaper sterke musikkopplevingar med kvalitet, presisjon og
-      speleglede - og bruker erfaringa vår til å inspirere, løfte og utvikle
+      speleglede, og bruker erfaringa vår til å inspirere, løfte og utvikle
       kulturlivet rundt oss.
     actions:
       - label: Bestill oss
@@ -21,7 +21,7 @@ sections:
         iconPosition: right
         style: primary
         type: Button
-      - label: Blir støttespelar
+      - label: Bli støttespelar
         altText: Gå til støttesida
         url: /stott-oss-bedriftssamarbeid
         showIcon: false

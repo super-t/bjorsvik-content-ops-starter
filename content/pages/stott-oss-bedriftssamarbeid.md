@@ -56,8 +56,8 @@ sections:
 
       Arbeidet vårt er strukturert gjennom tre tydelege satsingar med kvar sin profil.
 
-      **[\#BjørsvikUngBrass](/bjorvikungbrass)** - Vi gir barn og unge meistring gjennom samspel med erfarne musikarar, og styrkjer rekruttering, tryggleik og speleglede.
-      [Les meir om #BjørsvikUngBrass](/bjorvikungbrass)
+      **[\#BjørsvikUngBrass](/bjorsvikungbrass)** - Vi gir barn og unge meistring gjennom samspel med erfarne musikarar, og styrkjer rekruttering, tryggleik og speleglede.
+      [Les meir om #BjørsvikUngBrass](/bjorsvikungbrass)
 
       **[\#HunKomponerer](/hunkomponerer)** - Vi løfter fram kvinnelege komponistar, bestiller og framfører nye verk, og skapar fleire førebilete i korpsmiljøet.
       [Les meir om #HunKomponerer](/hunkomponerer)
@@ -236,7 +236,7 @@ sections:
 
 seo:
   metaTitle: Bedriftmedlemskap i Bjørsvik Brass - støtt oss
-  metaDescription: Bli støttespelar i Bjørsvik Brass med medlemskap for bedrifter og privatpersonar. Profilering, opplevingar og konkret samfunnsbidrag.
+  metaDescription: Bli støttespelar i Bjørsvik Brass med medlemskap for bedrifter og privatpersonar. Få profilering, opplevingar og eit konkret samfunnsbidrag.
   socialImage: /images/bb-img-0.jpeg
   type: Seo
 type: PageLayout

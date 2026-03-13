@@ -1,15 +1,15 @@
 ---
-title: '#BjørvikUngBrass'
-slug: bjorvikungbrass
+title: '#BjørsvikUngBrass'
+slug: bjorsvikungbrass
 sections:
   - type: GenericSection
     title:
-      text: '#BjørvikUngBrass'
+      text: '#BjørsvikUngBrass'
       color: text-light
       type: TitleBlock
     subtitle: Vi skapar meistring hjå barn og unge
     text: >-
-      \#BjørvikUngBrass er Bjørsvik Brass si satsing på rekruttering, meistring
+      \#BjørsvikUngBrass er Bjørsvik Brass si satsing på rekruttering, meistring
       og speleglede. Gjennom samspel med erfarne musikarar byggjer vi tryggleik,
       utvikling og motivasjon for neste generasjon.
     actions:
@@ -60,7 +60,7 @@ sections:
       - gi unge musikarar møte med førebilete frå toppnivå
       - skape inkluderande miljø med høg kunstnarisk kvalitet
 
-      \#BjørvikUngBrass byggjer på verdigrunnlaget «Erfaring og lidenskap i samspel», og er ein viktig del av Bjørsvik Brass sitt langsiktige samfunnsarbeid.
+      \#BjørsvikUngBrass byggjer på verdigrunnlaget «Erfaring og lidenskap i samspel», og er ein viktig del av Bjørsvik Brass sitt langsiktige samfunnsarbeid.
     colors: bg-light-fg-dark
     styles:
       self:
@@ -74,7 +74,7 @@ sections:
   - type: GenericSection
     media:
       url: /images/bub-bred.png
-      altText: BjørvikUngBrass
+      altText: BjørsvikUngBrass
       type: ImageBlock
     colors: bg-light-fg-dark
     styles:
@@ -87,7 +87,7 @@ sections:
           - pr-16
 
   - type: CarouselSection
-    elementId: sosialt-bevis-bjorvikungbrass
+    elementId: sosialt-bevis-bjorsvikungbrass
     title:
       text: Referansar
       color: text-dark
@@ -104,7 +104,7 @@ sections:
           Vi bidrog i førebuinga til Hordablæsten gjennom sit-in saman med unge musikantar. Slike samarbeid gir rask læring, meir speleglede og sterkare meistring i korpsmiljøet.
         image:
           url: /images/bub1.jpg
-          altText: Foreldregruppe og samarbeid rundt BjørvikUngBrass
+          altText: Foreldregruppe og samarbeid rundt BjørsvikUngBrass
           imageClassName: w-full h-56 object-cover rounded-lg
           type: ImageBlock
         colors: bg-neutral-fg-dark
@@ -174,7 +174,7 @@ sections:
           - pr-16
 
   - type: FeaturedItemsSection
-    elementId: historikk-bjorvikungbrass
+    elementId: historikk-bjorsvikungbrass
     title:
       text: Historikk
       color: text-dark
@@ -184,7 +184,7 @@ sections:
       - type: FeaturedItem
         title: 09-10.05.2014 - Fanasamling
         text: |-
-          Fanasamling 9.-10. mai 2014 som del av BjørvikUngBrass-satsinga.
+          Fanasamling 9.-10. mai 2014 som del av BjørsvikUngBrass-satsinga.
 
           <iframe width="100%" height="315" src="https://www.youtube.com/embed/_88qnnzmRxg?si=7UYM5JTpDs6iDfnD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         actions:
@@ -325,7 +325,7 @@ sections:
           vårbesøk hos Paradis skolekorps, Minde skoles musikkorps, Damsgård
           skoles musikkorps og Hellen og Eidsvåg skolekorps.
 
-          Underhaldningsprogram de-lux med flinke solistar og garantert god
+          Underhaldningsprogram deluxe med flinke solistar og garantert god
           stemning.
         colors: bg-light-fg-dark
         styles:
@@ -386,8 +386,8 @@ sections:
           - pr-16
 
 seo:
-  metaTitle: '#BjørvikUngBrass – Bjørsvik Brass'
-  metaDescription: #BjørvikUngBrass skapar meistring, tryggleik og speleglede for barn og unge gjennom samspel med erfarne musikarar.
+  metaTitle: '#BjørsvikUngBrass – Bjørsvik Brass'
+  metaDescription: #BjørsvikUngBrass skapar meistring, tryggleik og speleglede for barn og unge gjennom samspel med erfarne musikarar.
   socialImage: /images/bb-img-1.jpeg
   type: Seo
 type: PageLayout

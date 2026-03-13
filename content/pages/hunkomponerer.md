@@ -53,7 +53,7 @@ sections:
 
   - type: GenericSection
     text: |-
-      \#Hunkomponerer er ei langsiktig satsing frå Bjørsvik Brass som løftar fram kvinnelege komponistar og bidreg til auka likestilling og representasjon i musikkfeltet. Prosjektet er forankra i korpset sitt verdigrunnlag – «Erfaring og lidenskap i samspel» – og spring ut frå ønsket om å skape kunstnariske møtepunkt som både inspirerer og utfordrar.
+      \#HunKomponerer er ei langsiktig satsing frå Bjørsvik Brass som løftar fram kvinnelege komponistar og bidreg til auka likestilling og representasjon i musikkfeltet. Prosjektet er forankra i korpset sitt verdigrunnlag – «Erfaring og lidenskap i samspel» – og spring ut frå ønsket om å skape kunstnariske møtepunkt som både inspirerer og utfordrar.
 
       Sidan starten i 2022 har #hunkomponerer blitt ein årleg konserttradisjon, der programmet utelukkande består av musikk komponert av kvinner. Satsinga har også vorte ein del av Bjørsvik Brass sine interne strategiar, og blir brukt som modell for formidling og utvikling i fleire samanhengar.
     colors: bg-light-fg-dark
@@ -88,7 +88,7 @@ sections:
       type: TitleBlock
     items:
       - type: FeaturedItem
-        title: SHE - a tribute to woman of the world
+        title: SHE - a tribute to women of the world
         imageLink: /blog/elisabeth-vannebo-urfremforer-ny-trombonekonsert
         text: >-
           Urframføring av ny trombonekonsert skriven av Elisabeth Vannebo, med
@@ -112,7 +112,7 @@ sections:
             type: Link
         image:
           url: /images/she.jpg
-          altText: SHE - a tribute to woman of the world
+          altText: SHE - a tribute to women of the world
           imageClassName: w-full h-[220px] object-contain rounded-lg bg-white
           type: ImageBlock
         colors: bg-light-fg-dark
@@ -403,7 +403,7 @@ sections:
         type: Link
     media:
       url: /images/she.jpg
-      altText: SHE - a tribute to woman of the world
+      altText: SHE - a tribute to women of the world
       type: ImageBlock
     colors: bg-light-fg-dark
     styles:

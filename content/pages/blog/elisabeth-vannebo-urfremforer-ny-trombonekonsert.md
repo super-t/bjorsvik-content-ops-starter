@@ -36,7 +36,7 @@ Til konserten på kvinnedagen urframfører Bjørsvik Brass ein ny trombonekonser
 _Foto: Kristin Maute_
 
 Arrangement:
-[SHE - a tribute to woman of the world](https://www.facebook.com/events/4324369881185394)
+[SHE - a tribute to women of the world](https://www.facebook.com/events/4324369881185394)
 
 > "Eg hadde eit sterkt ønskje om å skrive eit verk til Grethe. Ho er ikkje berre ein framifrå musikar, men også eit menneske eg har vore så heldig å ha som nær ven i over 40 år. For meg representerer ho sjølve symbolet på sterke kvinner."
 >
@@ -112,7 +112,7 @@ Konserten er ein del av Bjørsvik Brass sitt prosjekt **#hunkomponerer**, som l�
 
 Tonheim peikar også på kor viktig det er at ny musikk faktisk blir brukt.
 
-> "#hunkomponerer har allereie generert meir repertoar. Som med alle verk er det viktig at det vert bevisst gjenbruk og dermed fleire nye komposisjonar. Fortsatt eit viktig arbeid for å få brukt alt kunstnerisk potensiale vi har rundt oss."
+> "#hunkomponerer har allereie generert meir repertoar. Som med alle verk er det viktig at det vert bevisst gjenbruk og dermed fleire nye komposisjonar. Framleis er det viktig å få brukt alt det kunstnariske potensialet vi har rundt oss."
 >
 > _Grethe Tonheim_
 
@@ -122,5 +122,5 @@ Tonheim peikar også på kor viktig det er at ny musikk faktisk blir brukt.
 - **Komponist:** Elisabeth Vannebo
 - **Solist:** Grethe Tonheim
 - **Ensemble:** Bjørsvik Brass
-- **Konsert:** «SHE - a tribute to woman of the world»
+- **Konsert:** «SHE - a tribute to women of the world»
 - **Dato:** 8. mars

@@ -5,7 +5,7 @@
         "type": "ImageBlock"
     },
     "title": "",
-    "text": "Levende musikk som løfter ethvert arrangement.\n\nE-post: [bjorsvik.brass@gmail.com](mailto:bjorsvik.brass@gmail.com)",
+    "text": "Levande musikk som løfter kvart arrangement.\n\nE-post: [bjorsvik.brass@gmail.com](mailto:bjorsvik.brass@gmail.com)",
     "primaryLinks": {
         "title": "",
         "links": [
@@ -48,8 +48,8 @@
                 "type": "Link"
             },
             {
-                "label": "#BjørvikUngBrass",
-                "url": "/bjorvikungbrass",
+                "label": "#BjørsvikUngBrass",
+                "url": "/bjorsvikungbrass",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
