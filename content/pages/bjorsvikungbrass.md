@@ -9,9 +9,10 @@ sections:
       type: TitleBlock
     subtitle: Vi skapar meistring hjå barn og unge
     text: >-
-      \#BjørsvikUngBrass er Bjørsvik Brass si satsing på rekruttering, meistring
-      og speleglede. Gjennom samspel med erfarne musikarar byggjer vi tryggleik,
-      utvikling og motivasjon for neste generasjon.
+      \#BjørsvikUngBrass er Bjørsvik Brass si langsiktige satsing på
+      rekruttering, meistring og speleglede. Vi skapar møte mellom unge
+      musikantar og erfarne rollemodellar gjennom samspel, inspirasjon og tett
+      samarbeid med skulekorps.
     actions:
       - label: Støtt satsinga
         altText: Gå til støttesida
@@ -21,9 +22,17 @@ sections:
         iconPosition: right
         style: primary
         type: Button
-      - label: Bestill oss
-        altText: Gå til bestillingssida
-        url: /bjorsvik-brass-bedrift
+      - label: Sjå aktivitetar
+        altText: Gå til historikk og aktivitetar
+        url: '#historikk-bjorsvikungbrass'
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: secondary
+        type: Button
+      - label: Ta kontakt for samarbeid
+        altText: Send e-post om samarbeid med BjørsvikUngBrass
+        url: mailto:bjorsvik.brass@gmail.com?subject=Samarbeid%20med%20Bj%C3%B8rsvikUngBrass
         showIcon: false
         icon: arrowRight
         iconPosition: right
@@ -45,31 +54,124 @@ sections:
         alignItems: flex-start
         justifyContent: flex-start
         flexDirection: col
-        minHeight: min-h-[28rem] md:min-h-[34rem]
+        minHeight: min-h-[22rem] md:min-h-[26rem]
         padding:
-          - pt-32
-          - pl-16
-          - pb-32
-          - pr-16
+          - pt-24
+          - pl-12
+          - pb-24
+          - pr-12
 
   - type: GenericSection
-    text: |-
-      Satsinga jobbar for å:
-      - styrkje rekruttering til korps
-      - førebyggje fråfall gjennom gode meistringsopplevingar
-      - gi unge musikarar møte med førebilete frå toppnivå
-      - skape inkluderande miljø med høg kunstnarisk kvalitet
-
-      \#BjørsvikUngBrass byggjer på verdigrunnlaget «Erfaring og lidenskap i samspel», og er ein viktig del av Bjørsvik Brass sitt langsiktige samfunnsarbeid.
+    title:
+      text: Kvifor dette er viktig
+      color: text-dark
+      type: TitleBlock
+    text: >-
+      Korps skaper fellesskap, meistring og tilhøyrsle. Samstundes veit vi at
+      mange fell frå i ungdomsåra. #BjørsvikUngBrass gir unge musikantar møte
+      med førebilete, meistringsopplevingar og motivasjon til å halde fram i
+      korpsmiljøet.
     colors: bg-light-fg-dark
     styles:
       self:
         justifyContent: flex-start
         padding:
-          - pt-12
-          - pl-16
-          - pb-8
-          - pr-16
+          - pt-8
+          - pl-12
+          - pb-6
+          - pr-12
+
+  - type: GenericSection
+    title:
+      text: Slik jobbar vi
+      color: text-dark
+      type: TitleBlock
+    text: |-
+      Konkret oppfølging gjennom sesongen, tilpassa kvart skulekorps.
+
+      - **Sit-in på øvingar:** unge musikantar spelar saman med erfarne musikarar i sitt eige korpsmiljø
+      - **Inspirasjonskonsertar:** vi kjem til skulekorpsa sine eigne arenaer og skapar opplevingar tett på miljøet deira
+      - **Instruksjon og seminar:** vi arbeider med basics, samspel, messing, slagverk og musikalsk utvikling
+      - **Felles konsertar:** unge solistar og ensemble får stå på scena saman med Bjørsvik Brass
+      - **Tett samarbeid:** aktivitetane blir planlagde saman med dirigent og styre, ut frå behovet i kvart korps
+    colors: bg-neutral-fg-dark
+    styles:
+      self:
+        justifyContent: flex-start
+        padding:
+          - pt-8
+          - pl-12
+          - pb-6
+          - pr-12
+
+  - type: FeaturedItemsSection
+    title:
+      text: Kven er dette for?
+      color: text-dark
+      type: TitleBlock
+    items:
+      - type: FeaturedItem
+        title: Skulekorps i Bergen og omegn
+        text: Særleg korps som ønskjer tettare musikalsk oppfølging og sterke vaksne rollemodellar.
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pl-6
+              - pb-6
+              - pr-6
+            borderRadius: large
+            textAlign: left
+      - type: FeaturedItem
+        title: Unge musikantar
+        text: Barn og unge som treng meistring, motivasjon og opplevinga av å høyre til.
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pl-6
+              - pb-6
+              - pr-6
+            borderRadius: large
+            textAlign: left
+      - type: FeaturedItem
+        title: Dirigentar og styre
+        text: Musikalske og organisatoriske samarbeidspartnarar som vil utvikle korpsmiljøet vidare.
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pl-6
+              - pb-6
+              - pr-6
+            borderRadius: large
+            textAlign: left
+      - type: FeaturedItem
+        title: Foreldre og lokalmiljø
+        text: Vaksne som ønskjer sterke, inkluderande møteplassar for barn og unge i nærmiljøet.
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pl-6
+              - pb-6
+              - pr-6
+            borderRadius: large
+            textAlign: left
+    variant: two-col-grid
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        justifyContent: flex-start
+        padding:
+          - pt-6
+          - pl-12
+          - pb-6
+          - pr-12
 
   - type: GenericSection
     media:
@@ -81,10 +183,143 @@ sections:
       self:
         justifyContent: flex-start
         padding:
-          - pt-4
-          - pl-16
-          - pb-8
-          - pr-16
+          - pt-2
+          - pl-12
+          - pb-4
+          - pr-12
+
+  - type: GenericSection
+    title:
+      text: Samarbeid med skulekorps
+      color: text-dark
+      type: TitleBlock
+    text: |-
+      Vi planlegg aktivitetar saman med dirigent og styre, og tilpassar nivå, format og oppfølging til kvart korps.
+
+      - Vi kjem til dykk, ikkje berre inviterer inn
+      - Vi styrkjer det eksisterande korpsmiljøet
+      - Vi følgjer opp gjennom sesongen der det gir mest effekt
+      - Vi byggjer på det korpset allereie jobbar med
+    actions:
+      - label: Ta kontakt for samarbeid
+        altText: Send e-post om samarbeid med skulekorps
+        url: mailto:bjorsvik.brass@gmail.com?subject=Samarbeid%20med%20skulekorps
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        type: Button
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        justifyContent: flex-start
+        padding:
+          - pt-6
+          - pl-12
+          - pb-6
+          - pr-12
+
+  - type: FeaturedItemsSection
+    title:
+      text: Dette gjer vi i praksis
+      color: text-dark
+      type: TitleBlock
+    items:
+      - type: FeaturedItem
+        title: Årlege samlingar og seminar
+        text: Samlingar gir nye musikalske møte, inspirasjon og fellesskap på tvers av korps.
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pl-6
+              - pb-6
+              - pr-6
+            borderRadius: large
+            textAlign: left
+      - type: FeaturedItem
+        title: Besøk hos skulekorps
+        text: Vi følgjer samarbeidskorpsa tett på deira eigne øvingar og arenaer.
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pl-6
+              - pb-6
+              - pr-6
+            borderRadius: large
+            textAlign: left
+      - type: FeaturedItem
+        title: Felles konsertar med unge musikantar
+        text: Unge får spele med, høyre live og kjenne meistring i møte med eit vaksent ensemble.
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pl-6
+              - pb-6
+              - pr-6
+            borderRadius: large
+            textAlign: left
+      - type: FeaturedItem
+        title: Solistmoglegheiter
+        text: Gjennom tiltak som Bjørsvik Ung Solo får unge musikantar synleggjort eigne talent.
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-6
+              - pl-6
+              - pb-6
+              - pr-6
+            borderRadius: large
+            textAlign: left
+    variant: two-col-grid
+    colors: bg-neutral-fg-dark
+    styles:
+      self:
+        justifyContent: flex-start
+        padding:
+          - pt-6
+          - pl-12
+          - pb-6
+          - pr-12
+
+  - type: GenericSection
+    title:
+      text: Kvifor støtte #BjørsvikUngBrass
+      color: text-dark
+      type: TitleBlock
+    text: |-
+      Satsinga gir konkret verdi både for barn og unge og for lokalmiljøet rundt dei.
+
+      - styrkjer rekruttering og reduserer fråfall
+      - gir lågterskel møte med sterke rollemodellar
+      - skaper inkluderande møteplassar i nærmiljøet
+      - byggjer lokalt kulturliv over tid
+
+      BjørsvikUngBrass er ein del av Bjørsvik Brass si langsiktige satsing på barn og unge, der vi deler erfaring frå toppnivå i korpsrørsla.
+    actions:
+      - label: Støtt satsinga
+        altText: Gå til støttesida
+        url: /stott-oss-bedriftssamarbeid
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        type: Button
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        justifyContent: flex-start
+        padding:
+          - pt-6
+          - pl-12
+          - pb-6
+          - pr-12
 
   - type: CarouselSection
     elementId: sosialt-bevis-bjorsvikungbrass
@@ -168,10 +403,10 @@ sections:
       self:
         justifyContent: flex-start
         padding:
-          - pt-8
-          - pl-16
-          - pb-8
-          - pr-16
+          - pt-6
+          - pl-12
+          - pb-6
+          - pr-12
 
   - type: FeaturedItemsSection
     elementId: historikk-bjorsvikungbrass
@@ -387,7 +622,7 @@ sections:
 
 seo:
   metaTitle: '#BjørsvikUngBrass – Bjørsvik Brass'
-  metaDescription: #BjørsvikUngBrass skapar meistring, tryggleik og speleglede for barn og unge gjennom samspel med erfarne musikarar.
+  metaDescription: #BjørsvikUngBrass byggjer meistring, fellesskap og rekruttering gjennom sit-in, inspirasjonskonsertar og samarbeid med skulekorps.
   socialImage: /images/bb-img-1.jpeg
   type: Seo
 type: PageLayout
